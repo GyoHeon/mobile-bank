@@ -6,63 +6,92 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <!--style-->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+  <!--NATIVE-->
+  <div class="status">
+
+  </div>
+  <!--VIEW-->
+  <div class="view">
+
+    <!--MAIN-->
+    <main>
+
+      <!--SECTION1-->
+      <section class="main-1">
+        <!--ACCOUNT-->
+        <div class="account">
+          <header class="account__header">
+            <img src="" alt="profile">
+            <h2 class="account__header--name">생활비</h2>
+            <div class="account__header--feature">
+              <div class="account__header--feature--qr">qr</div>
+              <div class="account__header--feature--search">search</div>
+            </div>
+          </header>
+          <!--계좌 박스-->
+          <div class="account__main">
+            <div class="account__main--header">
+              <strong class="account__main--number"></strong>
+              <span class="account__main--transfer"></span>
+            </div>
+            <div class="account__main--balance"></div>
+            <div class="account__main--chart">
+              <div class="account__main--chart__bar"></div>
+              <div class="account__main--chart__graph-img"></div>
+            </div>
+            <div class="account__main--rest"></div>
+          </div>
+          <div class="account__ad">
+            <ul class="account__ad--ul">
+              <li class="account__ad--li"></li>
+            </ul>
+          </div>
+        </div>
+        <!--CONTENTS-->
+        <div class="contents">
+          <div class="contents__money-box">
+            <ul class="contents__money-box--ul">
+              <li class="contents__money-box--li"></li>
+            </ul>
+            <!--저금통 추가 버튼-->
+            <div class="contents__money-box--add"></div>
+          </div>
+          <div class="contents__history">
+            <ul class="contents__history--ul__outer">
+              <li class="contents__history--li--outer">
+                <ul class="contents__history--ul__inner">
+                  <li class="contents__history--li__inner"></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION2-->
+      <section class="hidden"></section>
+
+      <!--SECTION3-->
+      <section class="hidden"></section>
+    </main>
+
+    <!--NAVIGATION-->
+    <nav>
+      <div class="wrap">
+        <div class="wrap--home"></div>
+        <div class="wrap--change"></div>
+        <div class="wrap--notice"></div>
+        <div class="wrap--more"></div>
+      </div>
+    </nav>
+  </div>
 </body>
-<!--VIEW-->
-<div class="view">
-
-  <!--MAIN-->
-  <main>
-
-    <!--SECTION1-->
-    <section class="main-1">
-      <!--ACCOUNT-->
-      <div class="account">
-        <header class="account__header">
-        </header>
-        <div class="account__main">
-        </div>
-        <div class="account__ad">
-          <ul class="account__ad--list">
-          </ul>
-        </div>
-      </div>
-      <!--CONTENTS-->
-      <div class="contents">
-        <div class="contents__money-box">
-          <ul class="contents__money-box--list">
-          </ul>
-          <div class="contents__money-box--add"></div>
-        </div>
-        <div class="contents__history">
-          <ul class="contents__history--list__outer">
-            <li class="contents__history--list__outer--day">
-              <ul class="contents__history--list__inner">
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!--SECTION2-->
-    <section class="hidden"></section>
-
-    <!--SECTION3-->
-    <section class="hidden"></section>
-  </main>
-
-  <!--NAVIGATION-->
-  <nav>
-    <div class="wrap">
-      <div class="wrap--home"></div>
-      <div class="wrap--change"></div>
-      <div class="wrap--notice"></div>
-      <div class="wrap--more"></div>
-    </div>
-  </nav>
-</div>
 
 </html>

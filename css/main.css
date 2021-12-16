@@ -1,0 +1,36 @@
+/*COMMON*/
+.view {
+  width: 375px;
+  height: 756px;
+  margin-top: 12px;
+  background-color: #eefce5;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.status {
+  width: 375px;
+  height: 44px;
+  background-color: #eefce5;
+}
+nav {
+  width: 375px;
+  height: 76px;
+  background-color: cornflowerblue;
+  position: absolute;
+  bottom: 0;
+}
+
+/*MAIN*/
+.account__header {
+  width: 327px;
+  height: 43px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account__header--feature {
+  display: flex;
+}
