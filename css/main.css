@@ -2,30 +2,29 @@
 .view {
   width: 375px;
   height: 756px;
-  margin-top: 12px;
-  background-color: #eefce5;
+  padding-top: 12px;
+  background-color: #eeece5;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  overflow: hidden;
 }
 .status {
-  width: 375px;
+  width: 100%;
   height: 44px;
-  background-color: #eefce5;
+  background-color: cornflowerblue;
 }
 nav {
-  width: 375px;
+  width: 100%;
   height: 76px;
   background-color: cornflowerblue;
   position: absolute;
   bottom: 0;
 }
 
-/*MAIN*/
+/*HEADER*/
 .account__header {
-  width: 327px;
+  width: 87.2%;
   height: 43px;
+  margin: 0 auto 0;
   background-color: cornflowerblue;
   display: flex;
   justify-content: space-between;
@@ -33,4 +32,137 @@ nav {
 }
 .account__header--feature {
   display: flex;
+}
+
+/*MAIN*/
+.account__main {
+  width: 279px;
+  height: 137px;
+  background-color: #fff;
+  margin: 33px auto 24px;
+  padding: 12px 0 6px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account__main--header {
+  width: 100%;
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.account__main--number {
+  font-size: 14px;
+  color: #858585;
+  margin: auto;
+}
+.account__main--transfer {
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  right: 17px;
+}
+
+.account__main--balance--money {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  margin: 16px;
+}
+
+.account__main--chart {
+  width: 100%;
+  height: 14px;
+  background-color: cadetblue;
+}
+
+.account__main--rest {
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  font-size: 14px;
+  color: #858585;
+  margin-top: 11px;
+}
+
+/*ADVERTISEMENT*/
+.account__ad {
+  font-size: 14px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  width: 100%;
+}
+
+/*CONTENTS*/
+/*드래그와 위치 설정 해야함*/
+.contents {
+  background-color: #f5f5f5;
+  height: 637px;
+  width: 375px;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0px -5px 14px rgba(189, 144, 28, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contents__drag {
+  width: 48px;
+  height: 2.15px;
+  background-color: #c4c4c4;
+  margin-top: 4.3px;
+  border-radius: 4px;
+}
+/*CONTENTS-MONEY BOX*/
+.contents__money-box {
+  border: 1px solid blueviolet;
+  width: 308px;
+  height: 55px;
+  margin: 16.55px auto 16px;
+  overflow: scroll;
+  display: flex;
+}
+.contents__money-box--ul {
+  display: flex;
+}
+.contents__money-box--li {
+  background-color: #dadada;
+  width: 162px;
+  height: 47px;
+  border-radius: 6px;
+  margin-right: 13px;
+  overflow: hidden;
+}
+.contents__money-box--li-1 {
+  background-color: coral;
+  padding-top: 6px;
+  width: 50%;
+  height: 100%;
+}
+.contents__money-box--li-1__title,
+.contents__money-box--li-1__money {
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 13px;
+}
+.contents__money-box--add {
+  background-color: violet;
+  width: 100px;
+  height: 47px;
+  padding: 0 30px;
+}
+
+/*CONTENTS-HISTORY*/
+.contents__history {
+  border: 1px solid burlywood;
+  width: 302px;
+  height: 100%;
 }
