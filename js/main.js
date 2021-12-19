@@ -8,3 +8,4 @@ const li = document.createElement("li");
 history.append("test");
 
 console.log(data["bankList"][0]);
+//
