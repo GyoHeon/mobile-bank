@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
 /*COMMON*/
 body {
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
+  font-weight: 500;
 }
 .view {
   margin: auto;
@@ -12,6 +16,7 @@ body {
   overflow: hidden;
 }
 .status {
+  margin: auto;
   width: 375px;
   height: 44px;
   background-color: cornflowerblue;
@@ -19,6 +24,10 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+a {
+  color: #000;
+}
+
 /*NAVIGATION*/
 nav {
   width: 100%;
@@ -82,7 +91,7 @@ nav {
   left: 3.5px;
 }
 .account__header--feature--search {
-  margin-left: 18px;
+  margin: 5px 0 0 18px;
 }
 
 /*MAIN*/
@@ -98,14 +107,12 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 .account__main--header {
   width: 100%;
   height: 21px;
   display: flex;
   align-items: center;
 }
-
 .account__main--number {
   font-size: 14px;
   color: #858585;
@@ -166,10 +173,11 @@ nav {
 
 /*ADVERTISEMENT*/
 .account__ad {
+  width: 100%;
   height: 21px;
   line-height: 21px;
   text-align: center;
-  width: 100%;
+  font-weight: 400;
 }
 
 /*CONTENTS*/
@@ -251,7 +259,7 @@ nav {
   font-size: 30px;
   font-weight: 300;
   color: #fff;
-  line-height: 28px;
+  line-height: 20px;
   text-align: center;
   margin-right: 6px;
 }
