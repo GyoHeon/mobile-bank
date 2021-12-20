@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
 /*COMMON*/
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
 .view {
   margin: auto;
   width: 375px;
@@ -9,19 +16,47 @@
   overflow: hidden;
 }
 .status {
+  margin: auto;
   width: 375px;
   height: 44px;
   background-color: cornflowerblue;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: #000;
+}
+
+/*NAVIGATION*/
 nav {
   width: 100%;
   height: 76px;
-  background-color: cornflowerblue;
+  background-color: #00bdb2;
   position: absolute;
   bottom: 0;
 }
-::-webkit-scrollbar {
-  display: none;
+.wrap {
+  width: 285px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap--change {
+  position: relative;
+}
+.wrap--change .arrow {
+  position: absolute;
+  top: -13px;
+  left: -15px;
+}
+.wrap--change .arrow-reverse {
+  position: absolute;
+  top: -6px;
+  left: -3px;
+  transform: rotateY(180deg);
 }
 
 /*HEADER*/
@@ -56,7 +91,7 @@ nav {
   left: 3.5px;
 }
 .account__header--feature--search {
-  margin-left: 18px;
+  margin: 5px 0 0 18px;
 }
 
 /*MAIN*/
@@ -72,14 +107,12 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 .account__main--header {
   width: 100%;
   height: 21px;
   display: flex;
   align-items: center;
 }
-
 .account__main--number {
   font-size: 14px;
   color: #858585;
@@ -100,31 +133,51 @@ nav {
   color: #000;
   margin: 16px;
 }
-.account__main--balance--money span {
-  font-size: 14px;
-}
 .account__main--chart {
-  width: 100%;
-  height: 14px;
-  background-color: cadetblue;
+  width: 83%;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
-
+.account__main--chart__bar {
+  width: 202px;
+  height: 6px;
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.account__main--chart__bar--fill {
+  width: 40%;
+  height: 100%;
+  background-color: #ffdb4c;
+}
+.account__main--chart__bar--btn {
+  width: 4px;
+  height: 17px;
+  border-radius: 2px;
+  background-color: #ff5f00;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  cursor: pointer;
+}
 .account__main--rest {
   height: 21px;
   line-height: 21px;
   text-align: center;
-  font-size: 14px;
   color: #858585;
   margin-top: 11px;
 }
 
 /*ADVERTISEMENT*/
 .account__ad {
-  font-size: 14px;
+  width: 100%;
   height: 21px;
   line-height: 21px;
   text-align: center;
-  width: 100%;
+  font-weight: 400;
 }
 
 /*CONTENTS*/
@@ -138,6 +191,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 21px;
 }
 .contents__drag {
   padding: 4.3px 20px 10px;
@@ -154,7 +208,7 @@ nav {
 .contents__money-box {
   width: 308px;
   height: 55.6px;
-  margin: 16.55px auto 16px;
+  margin-top: 16.55px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -205,14 +259,38 @@ nav {
   font-size: 30px;
   font-weight: 300;
   color: #fff;
-  line-height: 28px;
+  line-height: 20px;
   text-align: center;
   margin-right: 6px;
 }
 
 /*CONTENTS-HISTORY*/
 .contents__history {
-  border: 1px solid burlywood;
   width: 302px;
   height: 100%;
+  margin-top: 16px;
+  overflow-y: scroll;
+}
+.contents__history--total-expen {
+  color: #b4b4b4;
+  text-align: end;
+}
+.contents__history--li__outer__header {
+  display: flex;
+  justify-content: space-between;
+}
+.contents__history--ul__inner {
+  margin-bottom: 38px;
+}
+.contents__history--li__inner {
+  line-height: 27px;
+  padding: 8px 1px 7px;
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+.contents__history--li__inner .income {
+  color: #ff5f00;
 }
