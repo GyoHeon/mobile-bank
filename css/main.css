@@ -1,4 +1,7 @@
 /*COMMON*/
+body {
+  font-size: 14px;
+}
 .view {
   margin: auto;
   width: 375px;
@@ -100,9 +103,6 @@ nav {
   color: #000;
   margin: 16px;
 }
-.account__main--balance--money span {
-  font-size: 14px;
-}
 .account__main--chart {
   width: 100%;
   height: 14px;
@@ -113,14 +113,12 @@ nav {
   height: 21px;
   line-height: 21px;
   text-align: center;
-  font-size: 14px;
   color: #858585;
   margin-top: 11px;
 }
 
 /*ADVERTISEMENT*/
 .account__ad {
-  font-size: 14px;
   height: 21px;
   line-height: 21px;
   text-align: center;
@@ -154,7 +152,7 @@ nav {
 .contents__money-box {
   width: 308px;
   height: 55.6px;
-  margin: 16.55px auto 16px;
+  margin-top: 16.55px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -212,7 +210,31 @@ nav {
 
 /*CONTENTS-HISTORY*/
 .contents__history {
-  border: 1px solid burlywood;
   width: 302px;
   height: 100%;
+  margin-top: 16px;
+  overflow-y: scroll;
+}
+.contents__history--total-expen {
+  color: #b4b4b4;
+  text-align: end;
+}
+.contents__history--li__outer__header {
+  display: flex;
+  justify-content: space-between;
+}
+.contents__history--ul__inner {
+  margin-bottom: 38px;
+}
+.contents__history--li__inner {
+  line-height: 27px;
+  padding: 8px 1px 7px;
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+.contents__history--li__inner .income {
+  color: #ff5f00;
 }
