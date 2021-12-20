@@ -1,6 +1,3 @@
-//import fetch from "../node_modules/node-fetch";
-//import 로 바꿔서 실행할 예정
-
 const histOut = document.querySelector(".contents__history--ul__outer");
 
 fetch("https://gyoheonlee.github.io/mobile-bank/data/bank.json")

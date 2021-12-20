@@ -16,15 +16,38 @@ body {
   height: 44px;
   background-color: cornflowerblue;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+/*NAVIGATION*/
 nav {
   width: 100%;
   height: 76px;
-  background-color: cornflowerblue;
+  background-color: #00bdb2;
   position: absolute;
   bottom: 0;
 }
-::-webkit-scrollbar {
-  display: none;
+.wrap {
+  width: 285px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap--change {
+  position: relative;
+}
+.wrap--change .arrow {
+  position: absolute;
+  top: -13px;
+  left: -15px;
+}
+.wrap--change .arrow-reverse {
+  position: absolute;
+  top: -6px;
+  left: -3px;
+  transform: rotateY(180deg);
 }
 
 /*HEADER*/
@@ -104,11 +127,35 @@ nav {
   margin: 16px;
 }
 .account__main--chart {
-  width: 100%;
-  height: 14px;
-  background-color: cadetblue;
+  width: 83%;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
-
+.account__main--chart__bar {
+  width: 202px;
+  height: 6px;
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.account__main--chart__bar--fill {
+  width: 40%;
+  height: 100%;
+  background-color: #ffdb4c;
+}
+.account__main--chart__bar--btn {
+  width: 4px;
+  height: 17px;
+  border-radius: 2px;
+  background-color: #ff5f00;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  cursor: pointer;
+}
 .account__main--rest {
   height: 21px;
   line-height: 21px;
@@ -136,6 +183,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 21px;
 }
 .contents__drag {
   padding: 4.3px 20px 10px;
