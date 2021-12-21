@@ -6,6 +6,9 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+a {
+  color: #000;
+}
 .view {
   margin: auto;
   width: 375px;
@@ -23,9 +26,6 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
-}
-a {
-  color: #000;
 }
 
 /*NAVIGATION*/
@@ -298,4 +298,12 @@ nav {
 }
 .contents__history--li__inner .income {
   color: #ff5f00;
+}
+
+/*TEST*/
+.main-2 {
+  position: absolute;
+}
+.hidden {
+  display: none;
 }

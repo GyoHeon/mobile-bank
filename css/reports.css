@@ -1,0 +1,81 @@
+/*COMMON*/
+.view {
+  height: 768px;
+  background-color: #fff;
+  padding-top: 0;
+}
+main {
+  height: 623px;
+  padding-left: 30px;
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+}
+
+/*HEADER*/
+.title {
+  width: 332px;
+  height: 69px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.title strong {
+  line-height: 36px;
+  font-size: 24px;
+  align-self: flex-end;
+}
+.title a {
+  line-height: 21px;
+  font-weight: 300;
+}
+
+/*REPORTS*/
+.reports {
+  width: 345px;
+  padding-top: 29px;
+}
+.report__title {
+  font-size: 18px;
+  color: #444;
+}
+/*OPTION*/
+.option {
+  height: 135px;
+}
+.option__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.report__money {
+  font-size: 24px;
+  margin-right: 38px;
+  color: #ff5f00;
+}
+.option__controller {
+  width: 308px;
+  margin: 33px 28.5px 0 0;
+  position: relative;
+}
+.option__controller .account__main--chart__bar {
+  width: 100%;
+  height: 9.18px;
+}
+.option__controller .account__main--chart__bar--btn {
+  width: 8px;
+  height: 28px;
+  top: -10px;
+}
+/*DAILY REPORTS*/
+.reports__chart {
+  background-color: violet;
+  height: 288px;
+}
+
+/*MONTHLY EXPENDITURE*/
+.reports__graph {
+  background-color: yellow;
+  height: 900px;
+}

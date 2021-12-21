@@ -7,7 +7,6 @@ dragged.addEventListener("touchend", handleEnd, false);
 function handleMove(e) {
   e.preventDefault();
   contents.style.marginTop = `${e.touches[0].clientY - 337}px`;
-  console.log(`${e.touches[0].pageY}px`);
 }
 
 function handleEnd(e) {
