@@ -133,6 +133,9 @@ nav {
   color: #000;
   margin: 16px;
 }
+.account__main--balance--money span {
+  font-size: 14px;
+}
 .account__main--chart {
   width: 83%;
   height: 17px;

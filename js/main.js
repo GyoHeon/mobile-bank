@@ -1,10 +1,43 @@
 const histOut = document.querySelector(".contents__history--ul__outer");
+const moneyBoxUl = document.querySelector(".contents__money-box--ul");
+const moneyBoxBtn = document.querySelector(".contents__money-box--add");
+const history = {};
 
-fetch("https://gyoheonlee.github.io/mobile-bank/data/bank.json")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (myJson) {
+const jsonMe = fetch(
+  "https://gyoheonlee.github.io/mobile-bank/data/bank-new.json"
+).then(function (response) {
+  return response.json();
+});
+
+jsonMe.then(function (myJson) {
+  // ACCOUNT
+  document.querySelector(".account__header--name").innerText = myJson.accountId;
+  document.querySelector(".account__main--number").innerText =
+    myJson.accountNumber;
+  document.querySelector(
+    ".account__main--balance--money"
+  ).innerHTML = `${myJson.deposit} <span>원</span>`;
+  // CONTENTS
+  //MONEY BANK
+  myJson.moneyBox.forEach((x, i) => {
+    const li = document.createElement("li");
+    li.classList.add("contents__money-box--li");
+    const div = document.createElement("div");
+    div.classList.add("contents__money-box--li-1", `moneyBox-${i}`);
+    div.style.width = `${x.allAmount / x.fundAmount}%`;
+    const title = document.createElement("span");
+    title.classList.add("contents__money-box--li-1__title");
+    const titleContent = document.createTextNode(x.title);
+    title.appendChild(titleContent);
+    const fund = document.createElement("span");
+    fund.classList.add("contents__money-box--li-1__money");
+    const fundContent = document.createTextNode(x.fundAmount);
+    fund.appendChild(fundContent);
+    div.appendChild(title);
+    div.appendChild(fund);
+    li.appendChild(div);
+    moneyBoxUl.insertBefore(li, moneyBoxBtn);
+    // HISTORY
     myJson.bankList.reverse().forEach((x, i) => {
       //날짜 바뀌면 ul-inner 생성
       if (i === 0 || myJson.bankList[i - 1].date !== myJson.bankList[i].date) {
@@ -77,3 +110,6 @@ fetch("https://gyoheonlee.github.io/mobile-bank/data/bank.json")
       }
     });
   });
+
+  jsonMe.then(function (myJson) {});
+});
