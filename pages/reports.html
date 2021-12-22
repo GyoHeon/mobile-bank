@@ -10,6 +10,11 @@
   <!--style-->
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/reports.css">
+
+  <!--SCRIPT-->
+  <script defer src="../js/reports.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -20,39 +25,60 @@
   </div>
   <!--VIEW-->
   <div class="view">
-
+    <!--HEADER-->
+    <div class="title">
+      <strong>지출 관리</strong>
+      <a href="/">닫기</a>
+    </div>
     <!--MAIN-->
     <main>
-      <h1 class="title">지출 관리</h1>
-      <div class="option">
-        <div class="option__header">
-          <h3 class="report__title">기준금액설정</h3>
-          <strong class="report__money"></strong>
-        </div>
-        <div class="option__controller"></div>
-      </div>
-      <!--REPORT-->
       <div class="reports">
-        <h3 class="report__title">일간 리포트</h3>
-        <div class="reports__chart"></div>
-        <h3 class="report__title">6월 지출 패턴</h3>
+        <!--OPTION-->
+        <div class="option">
+          <div class="option__header">
+            <h3 class="report__title">기준금액설정</h3>
+            <strong class="report__money">2100000원</strong>
+          </div>
+          <div class="option__controller">
+            <div class="account__main--chart__bar">
+              <div class="account__main--chart__bar--fill"></div>
+            </div>
+            <div class="account__main--chart__bar--btn"></div>
+          </div>
+        </div>
+        <!--REPORT-->
+        <div class="reports__chart">
+          <h3 class="report__title">일간 리포트</h3>
+          <canvas id="myChart" height="200"></canvas>
+        </div>
         <div class="reports__graph">
-          <div class="reports__graph--circle"></div>
+          <h3 class="report__title">12월 지출 패턴</h3>
+          <div class="reports__graph--circle">
+            <canvas id="myChart2"></canvas>
+          </div>
           <ul class="reports__graph--list"></ul>
         </div>
       </div>
     </main>
-
-    <!--NAVIGATION-->
-    <nav>
-      <div class="wrap">
-        <div class="wrap--home"></div>
-        <div class="wrap--change"></div>
-        <div class="wrap--notice"></div>
-        <div class="wrap--more"></div>
-      </div>
-    </nav>
   </div>
+  <!--NAVIGATION-->
+  <nav>
+    <div class="wrap">
+      <a class="wrap--home" href="/">
+        <img src="../img/home.png" alt="home">
+      </a>
+      <div class="wrap--change">
+        <img class="arrow" src="../img/arrow.png" alt="arrow">
+        <img class="arrow-reverse" src="../img/arrow.png" alt="arrow-reverse">
+      </div>
+      <div class="wrap--notice">
+        <img src="../img/notice.png" alt="notice">
+      </div>
+      <div class="wrap--more">
+        <img src="../img/more.png" alt="more">
+      </div>
+    </div>
+  </nav>
 </body>
 
 </html>
