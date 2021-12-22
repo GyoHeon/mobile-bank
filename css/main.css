@@ -229,17 +229,20 @@ nav {
   overflow: hidden;
 }
 .contents__money-box--li-1 {
-  background-color: coral;
   padding-top: 6px;
-  width: 50%;
   height: 100%;
+  position: relative;
 }
 .contents__money-box--li-1__title,
 .contents__money-box--li-1__money {
+  position: absolute;
   color: #fff;
   font-size: 12px;
   line-height: 18px;
   margin-left: 13px;
+}
+.contents__money-box--li-1__money {
+  top: 22px;
 }
 .contents__money-box--add {
   width: 110px;
