@@ -70,12 +70,18 @@ a {
 }
 /*DAILY REPORTS*/
 .reports__chart {
-  background-color: violet;
+  border: 5px solid violet;
   height: 288px;
 }
 
 /*MONTHLY EXPENDITURE*/
 .reports__graph {
-  background-color: yellow;
+  border: 5px solid yellow;
   height: 900px;
+}
+#myChart {
+  height: 250px;
+}
+.reports__graph--circle {
+  padding-top: 20px;
 }

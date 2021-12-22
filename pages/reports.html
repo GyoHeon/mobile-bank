@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/reports.css">
+
+  <!--SCRIPT-->
+  <script defer src="../js/reports.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -45,10 +49,13 @@
         <!--REPORT-->
         <div class="reports__chart">
           <h3 class="report__title">일간 리포트</h3>
+          <canvas id="myChart" height="200"></canvas>
         </div>
         <div class="reports__graph">
-          <h3 class="report__title">6월 지출 패턴</h3>
-          <div class="reports__graph--circle"></div>
+          <h3 class="report__title">12월 지출 패턴</h3>
+          <div class="reports__graph--circle">
+            <canvas id="myChart2"></canvas>
+          </div>
           <ul class="reports__graph--list"></ul>
         </div>
       </div>
