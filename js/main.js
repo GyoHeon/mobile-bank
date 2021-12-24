@@ -2,12 +2,16 @@ const histOut = document.querySelector(".contents__history--ul__outer");
 const moneyBoxUl = document.querySelector(".contents__money-box--ul");
 const moneyBoxBtn = document.querySelector(".contents__money-box--add");
 const moneyBoxColor = ["#8cabd9", "#f6a7b8", "#f1ec7a", "#1d4d9f", "#f08838"];
+const time = document.querySelector(".status__time");
+const realTime = new Date();
 const history = new Object();
+
+time.innerText = `${realTime.getHours()}:${realTime.getMinutes()}`;
 
 function viewDraw() {}
 
 const jsonMe = fetch(
-  "https://gyoheonlee.github.io/mobile-bank/data/bank-son.json"
+  "https://gyoheonlee.github.io/mobile-bank/data/bank-mom.json"
 ).then(function (response) {
   return response.json();
 });

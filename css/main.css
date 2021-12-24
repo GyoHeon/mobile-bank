@@ -5,6 +5,7 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  background-color: #eeece5;
 }
 a {
   color: #000;
@@ -14,15 +15,22 @@ a {
   width: 375px;
   height: 756px;
   padding-top: 12px;
-  background-color: #eeece5;
   position: relative;
   overflow: hidden;
 }
 .status {
   margin: auto;
-  width: 375px;
-  height: 44px;
-  background-color: cornflowerblue;
+  width: 334px;
+  height: 31px;
+  margin: 13px 20px 0 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status__time {
+  width: 43px;
+  text-align: end;
+  font-size: 15px;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -235,6 +243,7 @@ nav {
 }
 .contents__money-box--li-1__title,
 .contents__money-box--li-1__money {
+  width: 130px;
   position: absolute;
   color: #fff;
   font-size: 12px;

@@ -1,7 +1,9 @@
 /*COMMON*/
+body {
+  background-color: #fff;
+}
 .view {
   height: 768px;
-  background-color: #fff;
   padding-top: 0;
 }
 main {

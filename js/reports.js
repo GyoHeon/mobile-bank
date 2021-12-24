@@ -1,4 +1,3 @@
-const chart = { oiling: 0, shopping: 0, mart: 0, eatout: 0, health: 0 };
 const chartName = {
   oiling: "주유비",
   shopping: "장보기",
@@ -13,119 +12,121 @@ const iconName = {
   eatout: ["restaurant", "#ff4c3f"],
   health: ["fitness_center", "#f59028"],
 };
-let expenSum = 0;
-const doughnutText = document.querySelector("#doughnutText");
-const history = new Object();
-const jsonMe = fetch(
-  "https://gyoheonlee.github.io/mobile-bank/data/bank-new.json"
-).then(function (response) {
-  return response.json();
-});
 
-jsonMe.then(function (myJson) {
-  myJson.bankList.forEach((x) => {
-    if (x.date.slice(5, 7) === "12" && x.classify !== "") {
-      if (history[x.date.slice(8, 10)]) {
-        history[x.date.slice(8, 10)] += x.price;
-      } else {
-        history[x.date.slice(8, 10)] = 1;
-      }
-      chart[x.classify] += x.price;
-    }
+function makeReports(url, month) {
+  const reportTitle = document.querySelectorAll(".report__title")[2];
+  const doughnutText = document.querySelector("#doughnutText");
+  const chart = { oiling: 0, shopping: 0, mart: 0, eatout: 0, health: 0 };
+  const history = new Object();
+  let expenSum = 0;
+
+  const jsonMe = fetch(url).then(function (response) {
+    return response.json();
   });
 
-  const ordered = Object.keys(history)
-    .sort((a, b) => parseInt(a) - parseInt(b))
-    .reduce((obj, key) => {
-      obj[key] = history[key];
-      return obj;
-    }, {});
+  jsonMe.then(function (myJson) {
+    myJson.bankList.forEach((x) => {
+      if (x.date.slice(5, 7) === month && x.classify !== "") {
+        if (history[x.date.slice(8, 10)]) {
+          history[x.date.slice(8, 10)] += x.price;
+        } else {
+          history[x.date.slice(8, 10)] = 1;
+        }
+        chart[x.classify] += x.price;
+      }
+    });
 
-  // DOUGHNUT
-  const data2 = {
-    labels: Object.keys(chart),
-    datasets: [
-      {
-        label: "Dataset 1",
-        data: Object.values(chart),
-        backgroundColor: [
-          "#bd3169",
-          "#265689",
-          "#9bc63c",
-          "#ff4c3f",
-          "#f59028",
-        ],
-      },
-    ],
-  };
+    // DOUGHNUT
+    const data2 = {
+      labels: Object.keys(chart),
+      datasets: [
+        {
+          label: "Dataset 1",
+          data: Object.values(chart),
+          backgroundColor: [
+            "#bd3169",
+            "#265689",
+            "#9bc63c",
+            "#ff4c3f",
+            "#f59028",
+          ],
+        },
+      ],
+    };
 
-  const config2 = {
-    type: "doughnut",
-    data: data2,
-    options: {
-      responsive: false,
-      width: 300,
-      borderWidth: 0,
-      cutout: 100,
-      plugins: {
-        legend: {
-          position: "none",
+    const config2 = {
+      type: "doughnut",
+      data: data2,
+      options: {
+        responsive: false,
+        width: 300,
+        borderWidth: 0,
+        cutout: 100,
+        plugins: {
+          legend: {
+            position: "none",
+          },
         },
       },
-    },
-  };
-  const myChart2 = new Chart(document.getElementById("myChart2"), config2);
+    };
 
-  doughnutText.innerText = "dsa";
+    const myChart2 = new Chart(document.getElementById("myChart2"), config2);
 
-  // BAR
-  const labels = Object.keys(history);
-  const data = {
-    labels: labels,
-    datasets: [
-      {
-        backgroundColor: "#38c976",
-        data: Object.values(history),
-      },
-    ],
-  };
-  const config = {
-    type: "bar",
-    data: data,
-    options: {
-      responsive: false,
-      plugins: {
-        legend: {
-          position: "none",
+    // BAR
+    const labels = Object.keys(history);
+
+    const data = {
+      labels: labels,
+      datasets: [
+        {
+          backgroundColor: "#38c976",
+          data: Object.values(history),
+        },
+      ],
+    };
+
+    const config = {
+      type: "bar",
+      data: data,
+      options: {
+        responsive: false,
+        plugins: {
+          legend: {
+            position: "none",
+          },
         },
       },
-    },
-  };
-  const myChart = new Chart(document.getElementById("myChart"), config);
+    };
 
-  // CHART LIST
-  const chartList = document.querySelector(".reports__graph--list");
-  for (let [key, value] of Object.entries(chart).slice(1, 5)) {
-    const li = document.createElement("li");
-    const div = document.createElement("div");
-    const icon = document.createElement("span");
-    icon.classList.add("material-icons");
-    const iconContent = document.createTextNode(iconName[key][0]);
-    icon.appendChild(iconContent);
-    icon.style.color = iconName[key][1];
-    const title = document.createElement("strong");
-    const titleContent = document.createTextNode(chartName[key]);
-    title.appendChild(titleContent);
-    div.appendChild(icon);
-    div.appendChild(title);
-    const expen = document.createElement("span");
-    const expenContent = document.createTextNode(`${value}원`);
-    expen.appendChild(expenContent);
-    li.appendChild(div);
-    li.appendChild(expen);
-    chartList.appendChild(li);
+    const myChart = new Chart(document.getElementById("myChart"), config);
 
-    expenSum += value;
-  }
-  doughnutText.innerText = `${expenSum}원`;
-});
+    // CHART LIST
+    const chartList = document.querySelector(".reports__graph--list");
+    for (let [key, value] of Object.entries(chart).slice(1, 5)) {
+      const li = document.createElement("li");
+      const div = document.createElement("div");
+      const icon = document.createElement("span");
+      icon.classList.add("material-icons");
+      const iconContent = document.createTextNode(iconName[key][0]);
+      icon.appendChild(iconContent);
+      icon.style.color = iconName[key][1];
+      const title = document.createElement("strong");
+      const titleContent = document.createTextNode(chartName[key]);
+      title.appendChild(titleContent);
+      div.appendChild(icon);
+      div.appendChild(title);
+      const expen = document.createElement("span");
+      const expenContent = document.createTextNode(`${value}원`);
+      expen.appendChild(expenContent);
+      li.appendChild(div);
+      li.appendChild(expen);
+      chartList.appendChild(li);
+      // ACCUMULATE EXPENDITURE
+      expenSum += value;
+    }
+    reportTitle.innerText = `${month}월 지출 패턴`;
+    doughnutText.innerText = `${expenSum}원`;
+  });
+}
+
+makeReports("https://gyoheonlee.github.io/mobile-bank/data/bank-me.json", "11");
