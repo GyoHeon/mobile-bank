@@ -1,4 +1,6 @@
 const changeMonth = document.querySelector(".title__btn");
+const reportTitle = document.querySelectorAll(".report__title")[2];
+
 const chartName = {
   oiling: "주유비",
   shopping: "장보기",
@@ -14,8 +16,11 @@ const iconName = {
   health: ["fitness_center", "#f59028"],
 };
 
+function dataRenew(url, month) {
+  reportTitle.innerText = `${month}월 지출 패턴`;
+}
+
 function makeReports(url, month) {
-  const reportTitle = document.querySelectorAll(".report__title")[2];
   const doughnutText = document.querySelector("#doughnutText");
   const chart = { oiling: 0, shopping: 0, mart: 0, eatout: 0, health: 0 };
   const history = new Object();
@@ -36,13 +41,10 @@ function makeReports(url, month) {
         chart[x.classify] += x.price;
       }
     });
-    console.log(history);
-    console.log(chart);
-    // BAR
-    const labels = Object.keys(history);
 
+    // BAR
     const data = {
-      labels: labels,
+      labels: Object.keys(history),
       datasets: [
         {
           backgroundColor: "#38c976",
@@ -50,7 +52,6 @@ function makeReports(url, month) {
         },
       ],
     };
-
     const config = {
       type: "bar",
       data: data,
@@ -83,7 +84,6 @@ function makeReports(url, month) {
         },
       ],
     };
-
     const config2 = {
       type: "doughnut",
       data: data2,
@@ -109,17 +109,14 @@ function makeReports(url, month) {
       const div = document.createElement("div");
       const icon = document.createElement("span");
       icon.classList.add("material-icons");
-      const iconContent = document.createTextNode(iconName[key][0]);
-      icon.appendChild(iconContent);
+      icon.innerText = iconName[key][0];
       icon.style.color = iconName[key][1];
       const title = document.createElement("strong");
-      const titleContent = document.createTextNode(chartName[key]);
-      title.appendChild(titleContent);
+      title.innerText = chartName[key];
       div.appendChild(icon);
       div.appendChild(title);
       const expen = document.createElement("span");
-      const expenContent = document.createTextNode(`${value}원`);
-      expen.appendChild(expenContent);
+      expen.innerText = `${value}원`;
       li.appendChild(div);
       li.appendChild(expen);
       chartList.appendChild(li);
@@ -131,8 +128,6 @@ function makeReports(url, month) {
   });
 }
 
-function dataRenew(month) {}
-
 let month = "12";
 
 makeReports(
@@ -140,7 +135,12 @@ makeReports(
   month
 );
 
+// 미완성
 changeMonth.addEventListener("click", function () {
-  if (month === "12") month === "11";
-  else month === "12";
+  if (month === "12") month = "11";
+  else month = "12";
+  dataRenew(
+    "https://gyoheonlee.github.io/mobile-bank/data/bank-me.json",
+    month
+  );
 });

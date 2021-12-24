@@ -1,14 +1,16 @@
-const histOut = document.querySelector(".contents__history--ul__outer");
-const moneyBoxUl = document.querySelector(".contents__money-box--ul");
-const moneyBoxBtn = document.querySelector(".contents__money-box--add");
 const moneyBoxColor = ["#8cabd9", "#f6a7b8", "#f1ec7a", "#1d4d9f", "#f08838"];
 const time = document.querySelector(".status__time");
 const realTime = new Date();
-const history = new Object();
+
+const histOut = document.querySelector(".contents__history--ul__outer");
+const moneyBoxUl = document.querySelector(".contents__money-box--ul");
+const moneyBoxBtn = document.querySelector(".contents__money-box--add");
 
 time.innerText = `${realTime.getHours()}:${realTime.getMinutes()}`;
 
 function viewDraw(url, pageNumber) {
+  const history = new Object();
+
   const jsonMe = fetch(url).then(function (response) {
     return response.json();
   });
@@ -21,7 +23,6 @@ function viewDraw(url, pageNumber) {
     document.querySelector(
       ".account__main--balance--money"
     ).innerHTML = `${myJson.deposit} <span>원</span>`;
-    // CONTENTS
     //MONEY BANK
     myJson.moneyBox.forEach((x, i) => {
       const li = document.createElement("li");
@@ -62,7 +63,6 @@ function viewDraw(url, pageNumber) {
         div.appendChild(strong);
         div.appendChild(span);
         liOut.appendChild(div);
-
         // li inner 만들기
         history[x.date].push(x.price);
         const li = document.createElement("li");
@@ -70,7 +70,6 @@ function viewDraw(url, pageNumber) {
         const spanTitle = document.createElement("span");
         spanTitle.innerText = x.history;
         const spanPrice = document.createElement("span");
-
         // in, out 구분
         if (x.income === "in") {
           spanPrice.classList.add("income");
