@@ -64,19 +64,18 @@ function viewDraw(url, pageNumber) {
         div.appendChild(span);
         liOut.appendChild(div);
         // li inner 만들기
+        const spanPrice = document.createElement("span");
+        // in, out 구분
+        if (x.income === "in") {
+          spanPrice.classList.add("income");
+          x.price = `+${x.price}`;
+        }
+        spanPrice.innerText = x.price;
         history[x.date].push(x.price);
         const li = document.createElement("li");
         li.classList.add("contents__history--li__inner");
         const spanTitle = document.createElement("span");
         spanTitle.innerText = x.history;
-        const spanPrice = document.createElement("span");
-        // in, out 구분
-        if (x.income === "in") {
-          spanPrice.classList.add("income");
-          spanPrice.innerText = `+${x.price}`;
-        } else {
-          spanPrice.innerText = x.price;
-        }
         li.appendChild(spanTitle);
         li.appendChild(spanPrice);
         ul.appendChild(li);
@@ -87,27 +86,30 @@ function viewDraw(url, pageNumber) {
           `.contents__history--ul__inner.date${x.date}`
         );
         // li inner 만들기
+        const spanPrice = document.createElement("span");
+        // in, out 구분
+        if (x.income === "in") {
+          spanPrice.classList.add("income");
+          x.price = `+${x.price}`;
+        }
+        spanPrice.innerText = x.price;
         history[x.date].push(x.price);
         const li = document.createElement("li");
         li.classList.add("contents__history--li__inner");
         const spanTitle = document.createElement("span");
         spanTitle.innerText = x.history;
-        const spanPrice = document.createElement("span");
-        // in, out 구분
-        if (x.income === "in") {
-          spanPrice.classList.add("income");
-          spanPrice.innerText = `+${x.price}`;
-        } else {
-          spanPrice.innerText = x.price;
-        }
         li.appendChild(spanTitle);
         li.appendChild(spanPrice);
         histIn.appendChild(li);
       }
     });
+    console.log(history);
     // DAILY TOTAL SUM
     for (const i in history) {
-      const totalSum = history[i].reduce((acc, cur) => acc + cur, 0);
+      const totalSum = history[i].reduce(function (acc, cur) {
+        if (typeof cur === "number") return acc + cur;
+        else return acc;
+      }, 0);
       const totalExpen = document.querySelector(
         `.contents__history--total-expen.date${i}`
       );
