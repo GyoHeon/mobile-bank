@@ -1,3 +1,4 @@
+const changeMonth = document.querySelector(".title__btn");
 const chartName = {
   oiling: "주유비",
   shopping: "장보기",
@@ -35,6 +36,35 @@ function makeReports(url, month) {
         chart[x.classify] += x.price;
       }
     });
+    console.log(history);
+    console.log(chart);
+    // BAR
+    const labels = Object.keys(history);
+
+    const data = {
+      labels: labels,
+      datasets: [
+        {
+          backgroundColor: "#38c976",
+          data: Object.values(history),
+        },
+      ],
+    };
+
+    const config = {
+      type: "bar",
+      data: data,
+      options: {
+        responsive: false,
+        plugins: {
+          legend: {
+            position: "none",
+          },
+        },
+      },
+    };
+
+    const myChart = new Chart(document.getElementById("myChart"), config);
 
     // DOUGHNUT
     const data2 = {
@@ -72,37 +102,9 @@ function makeReports(url, month) {
 
     const myChart2 = new Chart(document.getElementById("myChart2"), config2);
 
-    // BAR
-    const labels = Object.keys(history);
-
-    const data = {
-      labels: labels,
-      datasets: [
-        {
-          backgroundColor: "#38c976",
-          data: Object.values(history),
-        },
-      ],
-    };
-
-    const config = {
-      type: "bar",
-      data: data,
-      options: {
-        responsive: false,
-        plugins: {
-          legend: {
-            position: "none",
-          },
-        },
-      },
-    };
-
-    const myChart = new Chart(document.getElementById("myChart"), config);
-
-    // CHART LIST
+    // DOUGHNUT CHART LIST
     const chartList = document.querySelector(".reports__graph--list");
-    for (let [key, value] of Object.entries(chart).slice(1, 5)) {
+    for (let [key, value] of Object.entries(chart)) {
       const li = document.createElement("li");
       const div = document.createElement("div");
       const icon = document.createElement("span");
@@ -129,4 +131,16 @@ function makeReports(url, month) {
   });
 }
 
-makeReports("https://gyoheonlee.github.io/mobile-bank/data/bank-me.json", "11");
+function dataRenew(month) {}
+
+let month = "12";
+
+makeReports(
+  "https://gyoheonlee.github.io/mobile-bank/data/bank-me.json",
+  month
+);
+
+changeMonth.addEventListener("click", function () {
+  if (month === "12") month === "11";
+  else month === "12";
+});
