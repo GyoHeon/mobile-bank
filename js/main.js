@@ -5,7 +5,7 @@ const moneyBoxColor = ["#8cabd9", "#f6a7b8", "#f1ec7a", "#1d4d9f", "#f08838"];
 const history = new Object();
 
 const jsonMe = fetch(
-  "https://gyoheonlee.github.io/mobile-bank/data/bank-new.json"
+  "https://gyoheonlee.github.io/mobile-bank/data/bank-me.json"
 ).then(function (response) {
   return response.json();
 });
