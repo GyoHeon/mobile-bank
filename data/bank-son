@@ -1,0 +1,573 @@
+{
+  "clientName": "정의민",
+  "accountId": "아들",
+  "accountImg": "https://firebasestorage.googleapis.com/v0/b/bankapp-3e013.appspot.com/o/avatarChild.png?alt=media&token=d3336a3b-b188-4bf2-b2d0-981de1650669",
+  "accountNumber": "23-232117-34773",
+  "deposit": 124000,
+  "setAmountNum": 500000,
+  "moneyBox": [
+    {
+      "title": "자전거",
+      "targetAmount": 200000,
+      "fundAmount": 8000
+    },
+    {
+      "title": "아이패드",
+      "targetAmount": 600000,
+      "fundAmount": 400000
+    },
+    {
+      "title": "가방",
+      "targetAmount": 100000,
+      "fundAmount": 30000
+    }
+  ],
+  "bankList": [
+    {
+      "date": "2021-11-09",
+      "income": "out",
+      "classify": "mart",
+      "history": "홈플러스",
+      "price": 30000
+    },
+    {
+      "date": "2021-11-10",
+      "income": "out",
+      "classify": "eatout",
+      "history": "김밥지옥",
+      "price": 5600
+    },
+    {
+      "date": "2021-11-11",
+      "income": "out",
+      "classify": "eatout",
+      "history": "코끼리돈까스",
+      "price": 12000
+    },
+    {
+      "date": "2021-11-12",
+      "income": "out",
+      "classify": "mart",
+      "history": "이마트",
+      "price": 43000
+    },
+    {
+      "date": "2021-11-13",
+      "income": "out",
+      "classify": "shopping",
+      "history": "애플워치",
+      "price": 300000
+    },
+    {
+      "date": "2021-11-14",
+      "income": "out",
+      "classify": "health",
+      "history": "샐러드",
+      "price": 10000
+    },
+    {
+      "date": "2021-11-15",
+      "income": "out",
+      "classify": "mart",
+      "history": "홈플러스",
+      "price": 36000
+    },
+    {
+      "date": "2021-11-16",
+      "income": "out",
+      "classify": "eatout",
+      "history": "냉면",
+      "price": 8000
+    },
+    {
+      "date": "2021-11-17",
+      "income": "out",
+      "classify": "eatout",
+      "history": "신전떡볶이",
+      "price": 14000
+    },
+    {
+      "date": "2021-11-18",
+      "income": "out",
+      "classify": "eatout",
+      "history": "욕쟁이할매국밥",
+      "price": 5000
+    },
+    {
+      "date": "2021-11-19",
+      "income": "out",
+      "classify": "shopping",
+      "history": "알라딘",
+      "price": 33000
+    },
+    {
+      "date": "2021-11-20",
+      "income": "out",
+      "classify": "eatout",
+      "history": "아웃백",
+      "price": 89000
+    },
+    {
+      "date": "2021-11-21",
+      "income": "out",
+      "classify": "shopping",
+      "history": "나이키",
+      "price": 69900
+    },
+    {
+      "date": "2021-11-22",
+      "income": "out",
+      "classify": "mart",
+      "history": "e마트",
+      "price": 97800
+    },
+    {
+      "date": "2021-11-23",
+      "income": "out",
+      "classify": "shopping",
+      "history": "미니골드",
+      "price": 49900
+    },
+    {
+      "date": "2021-11-24",
+      "income": "out",
+      "classify": "eatout",
+      "history": "엽기떡볶이",
+      "price": 22000
+    },
+    {
+      "date": "2021-11-25",
+      "income": "out",
+      "classify": "shopping",
+      "history": "영풍문고",
+      "price": 19800
+    },
+    {
+      "date": "2021-11-26",
+      "income": "out",
+      "classify": "health",
+      "history": "하나정형외과",
+      "price": 99000
+    },
+    {
+      "date": "2021-11-27",
+      "income": "out",
+      "classify": "health",
+      "history": "삼송맑은피부과",
+      "price": 70000
+    },
+    {
+      "date": "2021-11-28",
+      "income": "out",
+      "classify": "mart",
+      "history": "PK마트",
+      "price": 140000
+    },
+    {
+      "date": "2021-11-29",
+      "income": "out",
+      "classify": "eatout",
+      "history": "갓덴스시",
+      "price": 67000
+    },
+    {
+      "date": "2021-11-30",
+      "income": "out",
+      "classify": "shopping",
+      "history": "일렉트로마트",
+      "price": 12900
+    },
+    {
+      "date": "2021-12-01",
+      "income": "out",
+      "classify": "health",
+      "history": "하빈저",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-01",
+      "income": "out",
+      "classify": "oiling",
+      "history": "주유비",
+      "price": 70000
+    },
+    {
+      "date": "2021-12-01",
+      "income": "out",
+      "classify": "mart",
+      "history": "신세계백화점",
+      "price": 300000
+    },
+    {
+      "date": "2021-12-02",
+      "income": "out",
+      "classify": "shopping",
+      "history": "애플펜슬",
+      "price": 200000
+    },
+    {
+      "date": "2021-12-02",
+      "income": "out",
+      "classify": "eatout",
+      "history": "김밥천국",
+      "price": 25000
+    },
+    {
+      "date": "2021-12-03",
+      "income": "out",
+      "classify": "health",
+      "history": "패러럴 그립",
+      "price": 90000
+    },
+    {
+      "date": "2021-12-03",
+      "income": "out",
+      "classify": "shopping",
+      "history": "코트",
+      "price": 370000
+    },
+    {
+      "date": "2021-12-03",
+      "income": "out",
+      "classify": "mart",
+      "history": "롯데백화점",
+      "price": 210000
+    },
+    {
+      "date": "2021-12-04",
+      "income": "out",
+      "classify": "eatout",
+      "history": "스시해나루",
+      "price": 18000
+    },
+    {
+      "date": "2021-12-04",
+      "income": "out",
+      "classify": "shopping",
+      "history": "정장",
+      "price": 510000
+    },
+    {
+      "date": "2021-12-05",
+      "income": "out",
+      "classify": "oiling",
+      "history": "엔진오일",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-05",
+      "income": "out",
+      "classify": "health",
+      "history": "프로틴",
+      "price": 70000
+    },
+    {
+      "date": "2021-12-05",
+      "income": "out",
+      "classify": "mart",
+      "history": "천리마마트",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-06",
+      "income": "out",
+      "classify": "eatout",
+      "history": "조스떡볶이",
+      "price": 15000
+    },
+    {
+      "date": "2021-12-06",
+      "income": "out",
+      "classify": "shopping",
+      "history": "식자재",
+      "price": 8000
+    },
+    {
+      "date": "2021-12-06",
+      "income": "out",
+      "classify": "mart",
+      "history": "천리마마트",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-07",
+      "income": "out",
+      "classify": "mart",
+      "history": "이마트",
+      "price": 88000
+    },
+    {
+      "date": "2021-12-07",
+      "income": "out",
+      "classify": "eatout",
+      "history": "버거킹",
+      "price": 17000
+    },
+    {
+      "date": "2021-12-08",
+      "income": "out",
+      "classify": "eatout",
+      "history": "KFC",
+      "price": 9900
+    },
+    {
+      "date": "2021-12-08",
+      "income": "out",
+      "classify": "health",
+      "history": "벌사그립",
+      "price": 89000
+    },
+    {
+      "date": "2021-12-08",
+      "income": "out",
+      "classify": "mart",
+      "history": "롯데마트",
+      "price": 90000
+    },
+    {
+      "date": "2021-12-09",
+      "income": "out",
+      "classify": "eatout",
+      "history": "맥도날드",
+      "price": 10800
+    },
+    {
+      "date": "2021-12-09",
+      "income": "out",
+      "classify": "shopping",
+      "history": "신발",
+      "price": 120000
+    },
+    {
+      "date": "2021-12-10",
+      "income": "out",
+      "classify": "mart",
+      "history": "이마트",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-10",
+      "income": "out",
+      "classify": "oiling",
+      "history": "주유비",
+      "price": 70000
+    },
+    {
+      "date": "2021-12-10",
+      "income": "out",
+      "classify": "shopping",
+      "history": "바지",
+      "price": 75000
+    },
+    {
+      "date": "2021-12-10",
+      "income": "out",
+      "classify": "eatout",
+      "history": "에그드랍",
+      "price": 7000
+    },
+    {
+      "date": "2021-12-11",
+      "income": "out",
+      "classify": "health",
+      "history": "나이크테크핏",
+      "price": 60000
+    },
+    {
+      "date": "2021-12-11",
+      "income": "out",
+      "classify": "mart",
+      "history": "하나로마트",
+      "price": 57000
+    },
+    {
+      "date": "2021-12-12",
+      "income": "out",
+      "classify": "eatout",
+      "history": "서브웨이",
+      "price": 8000
+    },
+    {
+      "date": "2021-12-12",
+      "income": "out",
+      "classify": "mart",
+      "history": "CU",
+      "price": 4500
+    },
+    {
+      "date": "2021-12-12",
+      "income": "in",
+      "classify": "",
+      "history": "주급",
+      "price": 140000
+    },
+    {
+      "date": "2021-12-13",
+      "income": "out",
+      "classify": "eatout",
+      "history": "김밥천국",
+      "price": 2500
+    },
+    {
+      "date": "2021-12-13",
+      "income": "out",
+      "classify": "shopping",
+      "history": "나이키",
+      "price": 199000
+    },
+    {
+      "date": "2021-12-14",
+      "income": "out",
+      "classify": "health",
+      "history": "밝은미소약국",
+      "price": 11000
+    },
+    {
+      "date": "2021-12-14",
+      "income": "out",
+      "classify": "mart",
+      "history": "홈플러스",
+      "price": 26500
+    },
+    {
+      "date": "2021-12-14",
+      "income": "out",
+      "classify": "eatout",
+      "history": "본죽",
+      "price": 12000
+    },
+    {
+      "date": "2021-12-15",
+      "income": "out",
+      "classify": "eatout",
+      "history": "엽기떡볶이",
+      "price": 14000
+    },
+    {
+      "date": "2021-12-15",
+      "income": "out",
+      "classify": "shopping",
+      "history": "올리브영",
+      "price": 9000
+    },
+    {
+      "date": "2021-12-15",
+      "income": "out",
+      "classify": "shopping",
+      "history": "교보문고",
+      "price": 8500
+    },
+    {
+      "date": "2021-12-16",
+      "income": "in",
+      "classify": "",
+      "history": "용돈",
+      "price": 100000
+    },
+    {
+      "date": "2021-12-16",
+      "income": "out",
+      "classify": "shopping",
+      "history": "쿠팡",
+      "price": 12000
+    },
+    {
+      "date": "2021-12-17",
+      "income": "out",
+      "classify": "eatout",
+      "history": "스타벅스",
+      "price": 5500
+    },
+    {
+      "date": "2021-12-17",
+      "income": "out",
+      "classify": "health",
+      "history": "샐러드",
+      "price": 6900
+    },
+    {
+      "date": "2021-12-18",
+      "income": "out",
+      "classify": "health",
+      "history": "햇님치과",
+      "price": 23400
+    },
+    {
+      "date": "2021-12-18",
+      "income": "out",
+      "classify": "health",
+      "history": "밝은미소약국",
+      "price": 5800
+    },
+    {
+      "date": "2021-12-18",
+      "income": "out",
+      "classify": "eatout",
+      "history": "본죽",
+      "price": 9500
+    },
+    {
+      "date": "2021-12-19",
+      "income": "out",
+      "classify": "shopping",
+      "history": "올리브영",
+      "price": 19900
+    },
+    {
+      "date": "2021-12-19",
+      "income": "out",
+      "classify": "mart",
+      "history": "이마트",
+      "price": 56700
+    },
+    {
+      "date": "2021-12-20",
+      "income": "out",
+      "classify": "mart",
+      "history": "다이소",
+      "price": 2000
+    },
+    {
+      "date": "2021-12-20",
+      "income": "out",
+      "classify": "eatout",
+      "history": "맥도날드",
+      "price": 6900
+    },
+    {
+      "date": "2021-12-21",
+      "income": "out",
+      "classify": "health",
+      "history": "에이블짐 휘트니스",
+      "price": 300000
+    },
+    {
+      "date": "2021-12-21",
+      "income": "out",
+      "classify": "eatout",
+      "history": "교촌치킨",
+      "price": 21000
+    },
+    {
+      "date": "2021-12-21",
+      "income": "out",
+      "classify": "mart",
+      "history": "CU",
+      "price": 1500
+    },
+    {
+      "date": "2021-12-22",
+      "income": "out",
+      "classify": "mart",
+      "history": "이마트",
+      "price": 34000
+    },
+    {
+      "date": "2021-12-22",
+      "income": "out",
+      "classify": "eatout",
+      "history": "도미노피자",
+      "price": 19000
+    }
+  ]
+}
