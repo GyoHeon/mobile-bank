@@ -1,4 +1,20 @@
-const chart = { "": 0, oiling: 0, shopping: 0, mart: 0, eatout: 0, health: 0 };
+const chart = { oiling: 0, shopping: 0, mart: 0, eatout: 0, health: 0 };
+const chartName = {
+  oiling: "주유비",
+  shopping: "장보기",
+  mart: "상점",
+  eatout: "식비",
+  health: "건강관리비",
+};
+const iconName = {
+  oiling: ["drive_eta", "#bd3169"],
+  shopping: ["shopping_cart", "#265689"],
+  mart: ["store_mall_directory", "#9bc63c"],
+  eatout: ["restaurant", "#ff4c3f"],
+  health: ["fitness_center", "#f59028"],
+};
+let expenSum = 0;
+const doughnutText = document.querySelector("#doughnutText");
 const history = new Object();
 const jsonMe = fetch(
   "https://gyoheonlee.github.io/mobile-bank/data/bank-new.json"
@@ -8,7 +24,7 @@ const jsonMe = fetch(
 
 jsonMe.then(function (myJson) {
   myJson.bankList.forEach((x) => {
-    if (x.date.slice(5, 7) === "12") {
+    if (x.date.slice(5, 7) === "12" && x.classify !== "") {
       if (history[x.date.slice(8, 10)]) {
         history[x.date.slice(8, 10)] += x.price;
       } else {
@@ -17,15 +33,13 @@ jsonMe.then(function (myJson) {
       chart[x.classify] += x.price;
     }
   });
-  console.log(history);
+
   const ordered = Object.keys(history)
     .sort((a, b) => parseInt(a) - parseInt(b))
     .reduce((obj, key) => {
       obj[key] = history[key];
       return obj;
     }, {});
-
-  console.log(ordered);
 
   // DOUGHNUT
   const data2 = {
@@ -35,7 +49,6 @@ jsonMe.then(function (myJson) {
         label: "Dataset 1",
         data: Object.values(chart),
         backgroundColor: [
-          "#c4c4c4",
           "#bd3169",
           "#265689",
           "#9bc63c",
@@ -63,6 +76,8 @@ jsonMe.then(function (myJson) {
   };
   const myChart2 = new Chart(document.getElementById("myChart2"), config2);
 
+  doughnutText.innerText = "dsa";
+
   // BAR
   const labels = Object.keys(history);
   const data = {
@@ -73,19 +88,44 @@ jsonMe.then(function (myJson) {
         data: Object.values(history),
       },
     ],
-    options: {
-      responsive: false,
-      plugins: {
-        legend: {
-          display: false,
-        },
-      },
-    },
   };
   const config = {
     type: "bar",
     data: data,
-    options: {},
+    options: {
+      responsive: false,
+      plugins: {
+        legend: {
+          position: "none",
+        },
+      },
+    },
   };
   const myChart = new Chart(document.getElementById("myChart"), config);
+
+  // CHART LIST
+  const chartList = document.querySelector(".reports__graph--list");
+  for (let [key, value] of Object.entries(chart).slice(1, 5)) {
+    const li = document.createElement("li");
+    const div = document.createElement("div");
+    const icon = document.createElement("span");
+    icon.classList.add("material-icons");
+    const iconContent = document.createTextNode(iconName[key][0]);
+    icon.appendChild(iconContent);
+    icon.style.color = iconName[key][1];
+    const title = document.createElement("strong");
+    const titleContent = document.createTextNode(chartName[key]);
+    title.appendChild(titleContent);
+    div.appendChild(icon);
+    div.appendChild(title);
+    const expen = document.createElement("span");
+    const expenContent = document.createTextNode(`${value}원`);
+    expen.appendChild(expenContent);
+    li.appendChild(div);
+    li.appendChild(expen);
+    chartList.appendChild(li);
+
+    expenSum += value;
+  }
+  doughnutText.innerText = `${expenSum}원`;
 });

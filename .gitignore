@@ -33,5 +33,7 @@ Temporary Items
 
 # Modules
 node_modules
+.cache
+dist
 
 # End of https://www.toptal.com/developers/gitignore/api/macos

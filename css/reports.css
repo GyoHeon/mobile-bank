@@ -40,6 +40,7 @@ a {
   font-size: 18px;
   color: #444;
 }
+
 /*OPTION*/
 .option {
   height: 135px;
@@ -68,20 +69,52 @@ a {
   height: 28px;
   top: -10px;
 }
+
 /*DAILY REPORTS*/
 .reports__chart {
-  border: 5px solid violet;
   height: 288px;
+  overflow-x: scroll;
+}
+#myChart {
+  margin-top: 30px;
 }
 
 /*MONTHLY EXPENDITURE*/
-.reports__graph {
-  border: 5px solid yellow;
-  height: 900px;
-}
 #myChart {
   height: 250px;
 }
+#doughnutText {
+  width: 300px;
+  position: absolute;
+  font-size: 24px;
+  top: 150px;
+  text-align: center;
+}
 .reports__graph--circle {
   padding-top: 20px;
+  position: relative;
+}
+.reports__graph--list {
+  width: 315px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.reports__graph--list li {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reports__graph--list > li > div {
+  display: flex;
+}
+.reports__graph--list > li > div > strong {
+  line-height: 24px;
+}
+.reports__graph--list > li > div > span {
+  width: 45px;
+  font-size: 30px;
+}
+.reports__graph--list > li > span {
+  color: #858585;
 }
