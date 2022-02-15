@@ -4,27 +4,33 @@
       "name": "boss1",
       "children": [
         {
-          "name": "mister_a",
+          "name": "경제",
           "group": "A",
-          "value": 28,
+          "value": 1850,
           "colname": "level3"
         },
         {
-          "name": "mister_b",
+          "name": "세계",
           "group": "A",
-          "value": 19,
+          "value": 332,
           "colname": "level3"
         },
         {
-          "name": "mister_c",
+          "name": "IT/인터넷/통신",
           "group": "C",
-          "value": 18,
+          "value": 294,
           "colname": "level3"
         },
         {
-          "name": "mister_d",
+          "name": "금융",
           "group": "C",
-          "value": 19,
+          "value": 276,
+          "colname": "level3"
+        },
+        {
+          "name": "생활",
+          "group": "C",
+          "value": 262,
           "colname": "level3"
         }
       ],
