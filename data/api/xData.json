@@ -1,5 +1,6 @@
 {
-  "KOSPI": [
+  "itmsNm": "KOSPI",
+  "data": [
     { "basDt": "2022-2-15", "price": 500 },
     { "basDt": "2022-2-14", "price": 1000 },
     { "basDt": "2022-2-13", "price": 1500 },
