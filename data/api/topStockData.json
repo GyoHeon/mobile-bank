@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "upperData",
+      "data": [
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트1",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        }
+      ]
+    },
+    {
+      "id": "lowerData",
+      "data": [
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        },
+        {
+          "name": "노루페인트2",
+          "currentPrice": "25,500",
+          "compare": "5,150",
+          "rate": "+25.31%",
+          "trading": "68,090"
+        }
+      ]
+    }
+  ]
+}
