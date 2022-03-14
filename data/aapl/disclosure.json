@@ -1,0 +1,305 @@
+{
+  "corp_name": "APPLE Inc",
+  "corp_code": "0000320193",
+  "stock_code": "AAPL",
+  "total_count": 1616,
+  "list": [
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "8-K - Current Report",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "12:00, 20 Aug 2020",
+      "flng_ctgy": "General",
+      "flng_type": "8-K",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "4 - Statement Of Changes In Beneficial Ownership Of Securities",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "28 Sep 2021",
+      "flng_ctgy": "Insider Activity",
+      "flng_type": "4",
+      "actn_dt": "26 Sep 2021",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    },
+    {
+      "report_nm": "PX14A6G - Notice Of Exempt Solicitation Submitted By Non-Management",
+      "source": "Securities and Exchange Commission",
+      "flng_dt": "18 Feb 2021",
+      "flng_ctgy": "General",
+      "flng_type": "PX14A6G",
+      "actn_dt": "",
+      "origin_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000060/0000320193-20-000060-index.htm"
+    }
+  ]
+}
