@@ -8,7 +8,7 @@
       "type": "NYSE"
     },
     { "symbol": "ADBE", "companyName": "Adobe Inc", "type": "NASDAQ" },
-    { "symbol": "AZN", "companyName": "Astrazeneca plc", "type": "NASDAQ" },
+    { "symbol": "AMZN", "companyName": "AMAZON.COM INC", "type": "NASDAQ" },
     { "symbol": "BAC", "companyName": "Bank Of America Corp", "type": "NYSE" },
     {
       "symbol": "BMY",
