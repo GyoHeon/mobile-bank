@@ -1,527 +1,317 @@
 {
   "items": [
     {
-      "id": "upperLimitData",
-      "data": [
-        {
-          "name": "이스타코",
-          "currentPrice": 1360,
-          "compare": 150,
-          "rate": 12.4,
-          "trading": 8808565
-        },
-        {
-          "name": "하이스틸",
-          "currentPrice": 3670,
-          "compare": 420,
-          "rate": 12.92,
-          "trading": 13413564
-        },
-        {
-          "name": "우진",
-          "currentPrice": 11700,
-          "compare": 350,
-          "rate": 3.08,
-          "trading": 10781426
-        },
-        {
-          "name": "황금에스티",
-          "currentPrice": 9870,
-          "compare": 850,
-          "rate": 9.42,
-          "trading": 6805241
-        },
-        {
-          "name": "이구산업",
-          "currentPrice": 4635,
-          "compare": 390,
-          "rate": 9.19,
-          "trading": 11544032
-        },
-        {
-          "name": "유니온머티리얼",
-          "currentPrice": 3290,
-          "compare": 245,
-          "rate": 8.05,
-          "trading": 10800809
-        },
-        {
-          "name": "일동제약",
-          "currentPrice": 43800,
-          "compare": 7500,
-          "rate": 4.34,
-          "trading": 1444091
-        },
-        {
-          "name": "진양화학",
-          "currentPrice": 8090,
-          "compare": 480,
-          "rate": 6.31,
-          "trading": 396096
-        },
-        {
-          "name": "화성산업",
-          "currentPrice": 21000,
-          "compare": 1200,
-          "rate": 6.06,
-          "trading": 605864
-        },
-        {
-          "name": "효성중공업",
-          "currentPrice": 61500,
-          "compare": 2700,
-          "rate": 4.59,
-          "trading": 139305
-        }
-      ]
-    },
-    {
-      "id": "lowerLimitData",
-      "data": [
-        {
-          "name": "신풍제약우",
-          "currentPrice": 105000,
-          "compare": -24500,
-          "rate": -18.92,
-          "trading": 913364
-        },
-        {
-          "name": "HDC현대산업개발",
-          "currentPrice": 16400,
-          "compare": -2050,
-          "rate": -11.11,
-          "trading": 4436719
-        },
-        {
-          "name": "대동전자",
-          "currentPrice": 9720,
-          "compare": -1230,
-          "rate": -11.23,
-          "trading": 261948
-        },
-        {
-          "name": "LG생활건강",
-          "currentPrice": 841000,
-          "compare": -70000,
-          "rate": -7.68,
-          "trading": 134875
-        },
-        {
-          "name": "동원시스템즈",
-          "currentPrice": 53700,
-          "compare": -4400,
-          "rate": -7.57,
-          "trading": 72314
-        },
-        {
-          "name": "세기상사",
-          "currentPrice": 11850,
-          "compare": -550,
-          "rate": -4.44,
-          "trading": 62498
-        },
-        {
-          "name": "제이콘텐트리",
-          "currentPrice": 56300,
-          "compare": -4200,
-          "rate": -6.94,
-          "trading": 402514
-        },
-        {
-          "name": "일정실업",
-          "currentPrice": 27850,
-          "compare": -1650,
-          "rate": -5.59,
-          "trading": 7471
-        },
-        {
-          "name": "인바이오젠",
-          "currentPrice": 2515,
-          "compare": -115,
-          "rate": -4.37,
-          "trading": 269516
-        },
-        {
-          "name": "하이트론",
-          "currentPrice": 3105,
-          "compare": -135,
-          "rate": -4.17,
-          "trading": 123749
-        }
-      ]
-    },
-    {
-      "id": "upperData",
-      "data": [
-        {
-          "name": "삼성엔지니어링",
-          "currentPrice": 27850,
-          "compare": 1250,
-          "rate": 4.7,
-          "trading": 4223260
-        },
-        {
-          "name": "범양건영",
-          "currentPrice": 4180,
-          "compare": 185,
-          "rate": 4.63,
-          "trading": 1906368
-        },
-        {
-          "name": "효성중공업",
-          "currentPrice": 61500,
-          "compare": 2700,
-          "rate": 4.59,
-          "trading": 139305
-        },
-        {
-          "name": "메리츠화재",
-          "currentPrice": 39000,
-          "compare": 1700,
-          "rate": 4.56,
-          "trading": 367272
-        },
-        {
-          "name": "HMM",
-          "currentPrice": 34500,
-          "compare": 1500,
-          "rate": 4.55,
-          "trading": 11224933
-        },
-        {
-          "name": "한미글로벌",
-          "currentPrice": 12950,
-          "compare": 550,
-          "rate": 4.44,
-          "trading": 210551
-        },
-        {
-          "name": "셀트리온",
-          "currentPrice": 180500,
-          "compare": 7500,
-          "rate": 4.34,
-          "trading": 1444091
-        },
-        {
-          "name": "현대일렉트릭",
-          "currentPrice": 20600,
-          "compare": 850,
-          "rate": 4.3,
-          "trading": 268109
-        },
-        {
-          "name": "대한제강",
-          "currentPrice": 23400,
-          "compare": 900,
-          "rate": 4.0,
-          "trading": 422406
-        },
-        {
-          "name": "롯데정보통신",
-          "currentPrice": 38200,
-          "compare": 1450,
-          "rate": 3.95,
-          "trading": 148957
-        }
-      ]
-    },
-    {
-      "id": "flatData",
-      "data": [
-        {
-          "name": "경방",
-          "currentPrice": 14400,
-          "compare": 0,
-          "rate": 0,
-          "trading": 3648
-        },
-        {
-          "name": "일동홀딩스",
-          "currentPrice": 12250,
-          "compare": 0,
-          "rate": 0,
-          "trading": 338955
-        },
-        {
-          "name": "천일고속",
-          "currentPrice": 64200,
-          "compare": 0,
-          "rate": 0,
-          "trading": 172
-        },
-        {
-          "name": "대한제분",
-          "currentPrice": 169000,
-          "compare": 0,
-          "rate": 0,
-          "trading": 4566
-        },
-        {
-          "name": "대상",
-          "currentPrice": 21950,
-          "compare": 0,
-          "rate": 0,
-          "trading": 92003
-        },
-        {
-          "name": "한독",
-          "currentPrice": 21100,
-          "compare": 0,
-          "rate": 0,
-          "trading": 14031
-        },
-        {
-          "name": "조흥",
-          "currentPrice": 191000,
-          "compare": 0,
-          "rate": 0,
-          "trading": 23
-        },
-        {
-          "name": "진흥기업",
-          "currentPrice": 2290,
-          "compare": 0,
-          "rate": 0,
-          "trading": 8299134
-        },
-        {
-          "name": "한국쉘석유",
-          "currentPrice": 252000,
-          "compare": 0,
-          "rate": 0,
-          "trading": 904
-        },
-        {
-          "name": "부광약품",
-          "currentPrice": 12250,
-          "compare": 0,
-          "rate": 0,
-          "trading": 1157652
-        }
-      ]
-    },
-    {
-      "id": "lowerData",
-      "data": [
-        {
-          "name": "아모레퍼시픽",
-          "currentPrice": 154000,
-          "compare": -13500,
-          "rate": -8.06,
-          "trading": 61533
-        },
-        {
-          "name": "LG생활건강",
-          "currentPrice": 841000,
-          "compare": -70000,
-          "rate": -7.68,
-          "trading": 134875
-        },
-        {
-          "name": "동원시스템즈",
-          "currentPrice": 53700,
-          "compare": -4400,
-          "rate": -7.57,
-          "trading": 72314
-        },
-        {
-          "name": "LG에너지솔루션",
-          "currentPrice": 363500,
-          "compare": -27500,
-          "rate": -7.03,
-          "trading": 1983756
-        },
-        {
-          "name": "제이콘텐트리",
-          "currentPrice": 56300,
-          "compare": -4200,
-          "rate": -6.94,
-          "trading": 402514
-        },
-        {
-          "name": "호텔신라",
-          "currentPrice": 79500,
-          "compare": -5500,
-          "rate": -6.47,
-          "trading": 1142860
-        },
-        {
-          "name": "코스모신소재",
-          "currentPrice": 32350,
-          "compare": -2150,
-          "rate": -6.23,
-          "trading": 717794
-        },
-        {
-          "name": "한국콜마",
-          "currentPrice": 41750,
-          "compare": -2700,
-          "rate": -6.07,
-          "trading": 180909
-        },
-        {
-          "name": "인디에프",
-          "currentPrice": 899,
-          "compare": -57,
-          "rate": -5.96,
-          "trading": 276691
-        },
-        {
-          "name": "일정실업",
-          "currentPrice": 27850,
-          "compare": -1650,
-          "rate": -5.59,
-          "trading": 7471
-        }
-      ]
-    },
-    {
-      "id": "topTradingData",
-      "data": [
-        {
-          "name": "두산중공업",
-          "currentPrice": 23350,
-          "compare": 100,
-          "rate": 0.43,
-          "trading": 20451744
-        },
-        {
-          "name": "하이스틸",
-          "currentPrice": 3670,
-          "compare": 420,
-          "rate": 12.92,
-          "trading": 13413564
-        },
-        {
-          "name": "퍼스텍",
-          "currentPrice": 4285,
-          "compare": 295,
-          "rate": 7.39,
-          "trading": 12512880
-        },
-        {
-          "name": "이구산업",
-          "currentPrice": 4635,
-          "compare": 390,
-          "rate": 9.19,
-          "trading": 11544032
-        },
-        {
-          "name": "HMM",
-          "currentPrice": 34500,
-          "compare": 1500,
-          "rate": 4.55,
-          "trading": 11224933
-        },
-        {
-          "name": "유니온머티리얼",
-          "currentPrice": 3290,
-          "compare": 245,
-          "rate": 8.05,
-          "trading": 10800809
-        },
-        {
-          "name": "우진",
-          "currentPrice": 11700,
-          "compare": 350,
-          "rate": 3.08,
-          "trading": 10781426
-        },
-        {
-          "name": "삼성전자",
-          "currentPrice": 70200,
-          "compare": 200,
-          "rate": 0.29,
-          "trading": 8907965
-        },
-        {
-          "name": "이스타코",
-          "currentPrice": 1360,
-          "compare": 150,
-          "rate": 12.4,
-          "trading": 8808565
-        },
-        {
-          "name": "진흥기업",
-          "currentPrice": 2290,
-          "compare": 0,
-          "rate": 0,
-          "trading": 8299134
-        }
-      ]
-    },
-    {
-      "id": "topCapData",
+      "id": "buzzData",
       "data": [
         {
           "name": "삼성전자",
           "currentPrice": 70200,
           "compare": 200,
           "rate": 0.29,
-          "trading": 8907965
+          "trading": 8907965,
+          "buzz": 776,
+          "positive": 70,
+          "negative": 30
         },
         {
           "name": "LG에너지솔루션",
           "currentPrice": 363500,
           "compare": 27500,
           "rate": -7.03,
-          "trading": 1983756
+          "trading": 1983756,
+          "buzz": 611,
+          "positive": 50,
+          "negative": 50
         },
         {
           "name": "SK하이닉스",
           "currentPrice": 116000,
           "compare": -1000,
           "rate": -0.85,
-          "trading": 3152057
+          "trading": 3152057,
+          "buzz": 541,
+          "positive": 30,
+          "negative": 70
         },
         {
           "name": "NAVER",
           "currentPrice": 329000,
           "compare": 0,
           "rate": 0,
-          "trading": 678047
+          "trading": 678047,
+          "buzz": 510,
+          "positive": 80,
+          "negative": 20
         },
         {
           "name": "삼성바이오로직스",
           "currentPrice": 799000,
           "compare": 12000,
           "rate": 1.52,
-          "trading": 51447
+          "trading": 51447,
+          "buzz": 457,
+          "positive": 70,
+          "negative": 30
         },
         {
           "name": "삼성전자우",
           "currentPrice": 63100,
           "compare": -200,
           "rate": -0.32,
-          "trading": 1380011
+          "trading": 1380011,
+          "buzz": 415,
+          "positive": 60,
+          "negative": 40
         },
         {
           "name": "카카오",
           "currentPrice": 103500,
           "compare": 2000,
           "rate": 1.97,
-          "trading": 3642279
+          "trading": 3642279,
+          "buzz": 352,
+          "positive": 90,
+          "negative": 10
         },
         {
           "name": "현대차",
           "currentPrice": 164500,
           "compare": -4500,
           "rate": -2.66,
-          "trading": 1106795
+          "trading": 1106795,
+          "buzz": 313,
+          "positive": 70,
+          "negative": 30
         },
         {
           "name": "삼성SDI",
           "currentPrice": 491000,
           "compare": 10000,
           "rate": 2.08,
-          "trading": 643704
+          "trading": 643704,
+          "buzz": 298,
+          "positive": 60,
+          "negative": 40
         },
         {
           "name": "LG화학",
           "currentPrice": 457000,
           "compare": -15000,
           "rate": -3.18,
-          "trading": 603056
+          "trading": 603056,
+          "buzz": 265,
+          "positive": 40,
+          "negative": 60
+        }
+      ]
+    },
+    {
+      "id": "positiveData",
+      "data": [
+        {
+          "name": "카카오",
+          "currentPrice": 103500,
+          "compare": 2000,
+          "rate": 1.97,
+          "trading": 3642279,
+          "buzz": 352,
+          "positive": 90,
+          "negative": 10
+        },
+        {
+          "name": "NAVER",
+          "currentPrice": 329000,
+          "compare": 0,
+          "rate": 0,
+          "trading": 678047,
+          "buzz": 510,
+          "positive": 80,
+          "negative": 20
+        },
+        {
+          "name": "삼성전자",
+          "currentPrice": 70200,
+          "compare": 200,
+          "rate": 0.29,
+          "trading": 8907965,
+          "buzz": 776,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "삼성바이오로직스",
+          "currentPrice": 799000,
+          "compare": 12000,
+          "rate": 1.52,
+          "trading": 51447,
+          "buzz": 457,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "현대차",
+          "currentPrice": 164500,
+          "compare": -4500,
+          "rate": -2.66,
+          "trading": 1106795,
+          "buzz": 313,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "삼성전자우",
+          "currentPrice": 63100,
+          "compare": -200,
+          "rate": -0.32,
+          "trading": 1380011,
+          "buzz": 415,
+          "positive": 60,
+          "negative": 40
+        },
+        {
+          "name": "삼성SDI",
+          "currentPrice": 491000,
+          "compare": 10000,
+          "rate": 2.08,
+          "trading": 643704,
+          "buzz": 298,
+          "positive": 60,
+          "negative": 40
+        },
+        {
+          "name": "LG에너지솔루션",
+          "currentPrice": 363500,
+          "compare": 27500,
+          "rate": -7.03,
+          "trading": 1983756,
+          "buzz": 611,
+          "positive": 50,
+          "negative": 50
+        },
+        {
+          "name": "LG화학",
+          "currentPrice": 457000,
+          "compare": -15000,
+          "rate": -3.18,
+          "trading": 603056,
+          "buzz": 265,
+          "positive": 40,
+          "negative": 60
+        },
+        {
+          "name": "SK하이닉스",
+          "currentPrice": 116000,
+          "compare": -1000,
+          "rate": -0.85,
+          "trading": 3152057,
+          "buzz": 541,
+          "positive": 30,
+          "negative": 70
+        }
+      ]
+    },
+    {
+      "id": "negativeData",
+      "data": [
+        {
+          "name": "SK하이닉스",
+          "currentPrice": 116000,
+          "compare": -1000,
+          "rate": -0.85,
+          "trading": 3152057,
+          "buzz": 541,
+          "positive": 30,
+          "negative": 70
+        },
+        {
+          "name": "LG화학",
+          "currentPrice": 457000,
+          "compare": -15000,
+          "rate": -3.18,
+          "trading": 603056,
+          "buzz": 265,
+          "positive": 40,
+          "negative": 60
+        },
+        {
+          "name": "LG에너지솔루션",
+          "currentPrice": 363500,
+          "compare": 27500,
+          "rate": -7.03,
+          "trading": 1983756,
+          "buzz": 611,
+          "positive": 50,
+          "negative": 50
+        },
+        {
+          "name": "삼성SDI",
+          "currentPrice": 491000,
+          "compare": 10000,
+          "rate": 2.08,
+          "trading": 643704,
+          "buzz": 298,
+          "positive": 60,
+          "negative": 40
+        },
+        {
+          "name": "삼성전자우",
+          "currentPrice": 63100,
+          "compare": -200,
+          "rate": -0.32,
+          "trading": 1380011,
+          "buzz": 415,
+          "positive": 60,
+          "negative": 40
+        },
+        {
+          "name": "현대차",
+          "currentPrice": 164500,
+          "compare": -4500,
+          "rate": -2.66,
+          "trading": 1106795,
+          "buzz": 313,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "삼성바이오로직스",
+          "currentPrice": 799000,
+          "compare": 12000,
+          "rate": 1.52,
+          "trading": 51447,
+          "buzz": 457,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "삼성전자",
+          "currentPrice": 70200,
+          "compare": 200,
+          "rate": 0.29,
+          "trading": 8907965,
+          "buzz": 776,
+          "positive": 70,
+          "negative": 30
+        },
+        {
+          "name": "NAVER",
+          "currentPrice": 329000,
+          "compare": 0,
+          "rate": 0,
+          "trading": 678047,
+          "buzz": 510,
+          "positive": 80,
+          "negative": 20
+        },
+        {
+          "name": "카카오",
+          "currentPrice": 103500,
+          "compare": 2000,
+          "rate": 1.97,
+          "trading": 3642279,
+          "buzz": 352,
+          "positive": 90,
+          "negative": 10
         }
       ]
     }
