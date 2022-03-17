@@ -1,0 +1,42 @@
+{
+  "itmsNm": "Amazon.com Inc",
+  "crno": "AMZN",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "netInc": 10073,
+      "depre": 15341,
+      "sales": 5911,
+      "salesNet": 42740,
+      "investsNet": 31766,
+      "devNet": 1
+    },
+    {
+      "basDt": "2019-12-01",
+      "netInc": 11588,
+      "depre": 21789,
+      "sales": 6779,
+      "salesNet": 72879,
+      "investsNet": 40952,
+      "devNet": 1
+    },
+    {
+      "basDt": "2020-12-01",
+      "netInc": 21331,
+      "depre": 25251,
+      "sales": 6555,
+      "salesNet": 74984,
+      "investsNet": 52583,
+      "devNet": 1
+    },
+    {
+      "basDt": "2021-12-01",
+      "netInc": 33364,
+      "depre": 34296,
+      "sales": 1412,
+      "salesNet": 108949,
+      "investsNet": 65938,
+      "devNet": 1
+    }
+  ]
+}

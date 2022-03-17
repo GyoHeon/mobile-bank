@@ -1,0 +1,42 @@
+{
+  "itmsNm": "NAVER",
+  "crno": "035420",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "netInc": 6279.0,
+      "depre": 10801.8,
+      "sales": 9735.1,
+      "salesNet": 14551.9,
+      "investsNet": 3882.9,
+      "devNet": 277.3
+    },
+    {
+      "basDt": "2019-12-01",
+      "netInc": 3968.2,
+      "depre": 13996.3,
+      "sales": 13568.4,
+      "salesNet": 18359.1,
+      "investsNet": 10781.3,
+      "devNet": 207.4
+    },
+    {
+      "basDt": "2020-12-01",
+      "netInc": 8450.0,
+      "depre": 19721.1,
+      "sales": 14472.1,
+      "salesNet": 20417.7,
+      "investsNet": 25032.0,
+      "devNet": 301.9
+    },
+    {
+      "basDt": "2021-12-01",
+      "netInc": 164776.3,
+      "depre": 33933.9,
+      "sales": 13799.1,
+      "salesNet": 20700.3,
+      "investsNet": 139988.0,
+      "devNet": 547.5
+    }
+  ]
+}
