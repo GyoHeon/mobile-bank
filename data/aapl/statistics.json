@@ -8,8 +8,8 @@
       "curAsset": 131339,
       "inventory": 3956,
       "tangible": 41304,
-      "invests": 170799,
       "liabilitiesCap": 258578,
+      "invests": 170799,
       "curLiab": 116866
     },
     {
@@ -18,8 +18,8 @@
       "curAsset": 162819,
       "inventory": 4106,
       "tangible": 37378,
-      "invests": 106698,
       "liabilitiesCap": 248028,
+      "invests": 106698,
       "curLiab": 105718
     },
     {
@@ -28,8 +28,8 @@
       "curAsset": 143713,
       "inventory": 4061,
       "tangible": 45336,
-      "invests": 102624,
       "liabilitiesCap": 258549,
+      "invests": 102624,
       "curLiab": 105392
     },
     {
@@ -38,8 +38,8 @@
       "curAsset": 134836,
       "inventory": 6580,
       "tangible": 49527,
-      "invests": 127877,
       "liabilitiesCap": 287912,
+      "invests": 127877,
       "curLiab": 125481
     }
   ]

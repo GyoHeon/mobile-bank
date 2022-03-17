@@ -9,8 +9,8 @@
       "inventory": 17174,
       "tangible": 61797,
       "intangible": 18658,
-      "invests": 2137,
       "liabilitiesCap": 119099,
+      "invests": 2137,
       "curLiab": 68391
     },
     {
@@ -20,8 +20,8 @@
       "inventory": 20497,
       "tangible": 97846,
       "intangible": 18803,
-      "invests": 1517,
       "liabilitiesCap": 163188,
+      "invests": 1517,
       "curLiab": 87812
     },
     {
@@ -31,8 +31,8 @@
       "inventory": 23795,
       "tangible": 150667,
       "intangible": 19998,
-      "invests": 711,
       "liabilitiesCap": 227791,
+      "invests": 711,
       "curLiab": 126385
     },
     {
@@ -42,8 +42,8 @@
       "inventory": 32640,
       "tangible": 216363,
       "intangible": 15371,
-      "invests": 3022,
       "liabilitiesCap": 282304,
+      "invests": 3022,
       "curLiab": 142266
     }
   ]
