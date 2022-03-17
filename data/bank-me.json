@@ -1,8 +1,10 @@
 {
   "clientName": "정을수",
   "accountId": "생활비",
+  "accountImg": "https://firebasestorage.googleapis.com/v0/b/bankapp-3e013.appspot.com/o/avatar.png?alt=media&token=f929ad96-af1e-47bf-adfd-016135d338a6",
   "accountNumber": "355-673877-78773",
-  "deposit": 1240000,
+  "deposit": 3240000,
+  "setAmountNum": 3000000,
   "moneyBox": [
     {
       "title": "여행가자",
@@ -1182,8 +1184,8 @@
       "date": "2021-12-22",
       "income": "out",
       "classify": "shopping",
-      "history": "맥북 프로",
-      "price": 3190000
+      "history": "아이패드 프로",
+      "price": 1319000
     },
     {
       "date": "2021-12-22",

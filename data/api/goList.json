@@ -1,0 +1,109 @@
+{
+  "global": [
+    { "symbol": "AAPL", "companyName": "Apple Inc", "type": "NASDAQ" },
+    { "symbol": "ABT", "companyName": "Abbott Laboratories", "type": "NYSE" },
+    {
+      "symbol": "ACN",
+      "companyName": "Accenture plc - Class A",
+      "type": "NYSE"
+    },
+    { "symbol": "ADBE", "companyName": "Adobe Inc", "type": "NASDAQ" },
+    { "symbol": "AMZN", "companyName": "AMAZON.COM INC", "type": "NASDAQ" },
+    { "symbol": "BAC", "companyName": "Bank Of America Corp", "type": "NYSE" },
+    {
+      "symbol": "BMY",
+      "companyName": "Bristol-Myers Squibb Company",
+      "type": "NYSE"
+    },
+    {
+      "symbol": "CMCSA",
+      "companyName": "Comcast Corp - Class A",
+      "type": "NASDAQ"
+    },
+    {
+      "symbol": "COKE",
+      "companyName": "Coca-Cola Consolidated Inc",
+      "type": "NASDAQ"
+    },
+    {
+      "symbol": "COST",
+      "companyName": "Costco Wholesale Corp",
+      "type": "NASDAQ"
+    },
+    { "symbol": "CSCO", "companyName": "Cisco Systems Inc", "type": "NASDAQ" },
+    { "symbol": "CVX", "companyName": "Chevron Corp", "type": "NYSE" },
+    { "symbol": "DHR", "companyName": "Danaher Corp", "type": "NYSE" },
+    { "symbol": "DIS", "companyName": "Walt Disney Co (The)", "type": "NYSE" },
+    {
+      "symbol": "FB",
+      "companyName": "Meta Platforms Inc - Class A",
+      "type": "NASDAQ"
+    },
+    {
+      "symbol": "GOOGL",
+      "companyName": "Alphabet Inc - Class A",
+      "type": "NASDAQ"
+    },
+    { "symbol": "HD", "companyName": "Home Depot Inc", "type": "NYSE" },
+    { "symbol": "INTC", "companyName": "Intel Corp", "type": "NASDAQ" },
+    { "symbol": "JNJ", "companyName": "Johnson & Johnson", "type": "NYSE" },
+    {
+      "symbol": "JPM",
+      "companyName": "JPMorgan Chase & Company",
+      "type": "NYSE"
+    },
+    { "symbol": "LLY", "companyName": "Lilly(Eli) & Company", "type": "NYSE" },
+    { "symbol": "LOW", "companyName": "Lowe`s Cos. Inc", "type": "NYSE" },
+    {
+      "symbol": "MA",
+      "companyName": "Mastercard Incorporated - Class A",
+      "type": "NYSE"
+    },
+    { "symbol": "MCD", "companyName": "McDonald`s Corp", "type": "NYSE" },
+    { "symbol": "MRK", "companyName": "Merck & Co Inc", "type": "NYSE" },
+    { "symbol": "MS", "companyName": "Morgan Stanley", "type": "NYSE" },
+    {
+      "symbol": "MSFT",
+      "companyName": "Microsoft Corporation",
+      "type": "NASDAQ"
+    },
+    { "symbol": "NEE", "companyName": "NextEra Energy Inc", "type": "NYSE" },
+    { "symbol": "NFLX", "companyName": "NetFlix Inc", "type": "NASDAQ" },
+    { "symbol": "NKE", "companyName": "Nike Inc - Class B", "type": "NYSE" },
+    { "symbol": "NVDA", "companyName": "NVIDIA Corp", "type": "NASDAQ" },
+    { "symbol": "ORCL", "companyName": "Oracle Corp", "type": "NYSE" },
+    { "symbol": "PEP", "companyName": "PepsiCo Inc", "type": "NASDAQ" },
+    { "symbol": "PFE", "companyName": "Pfizer Inc", "type": "NYSE" },
+    {
+      "symbol": "PG",
+      "companyName": "Procter & Gamble Company",
+      "type": "NYSE"
+    },
+    { "symbol": "QCOM", "companyName": "Qualcomm Inc", "type": "NASDAQ" },
+    { "symbol": "SCHW", "companyName": "Charles Schwab Corp", "type": "NYSE" },
+    { "symbol": "T", "companyName": "AT&T Inc", "type": "NYSE" },
+    { "symbol": "TMUS", "companyName": "T-Mobile US Inc", "type": "NASDAQ" },
+    { "symbol": "TSLA", "companyName": "Tesla Inc", "type": "NASDAQ" },
+    {
+      "symbol": "TXN",
+      "companyName": "Texas Instruments Inc",
+      "type": "NASDAQ"
+    },
+    {
+      "symbol": "UNH",
+      "companyName": "Unitedhealth Group Inc",
+      "type": "NYSE"
+    },
+    { "symbol": "UNP", "companyName": "Union Pacific Corp", "type": "NYSE" },
+    { "symbol": "UVV", "companyName": "Universal Corp", "type": "NYSE" },
+    { "symbol": "V", "companyName": "Visa Inc - Class A", "type": "NYSE" },
+    {
+      "symbol": "VZ",
+      "companyName": "Verizon Communications Inc",
+      "type": "NYSE"
+    },
+    { "symbol": "WFC", "companyName": "Wells Fargo & Company", "type": "NYSE" },
+    { "symbol": "WMT", "companyName": "Walmart Inc", "type": "NYSE" },
+    { "symbol": "XOM", "companyName": "Exxon Mobil Corp", "type": "NYSE" }
+  ]
+}

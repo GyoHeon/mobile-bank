@@ -1,0 +1,62 @@
+{
+  "itmsNm": "NAVER",
+  "crno": "035420",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "marketCap": 98811.9,
+      "liabilitiesCap": 39320.5,
+      "curAsset": 53855.7,
+      "inventory": 574.4,
+      "tangible": 14573.0,
+      "intangible": 3069.6,
+      "invests": 22477.4,
+      "curLiab": 26196.7,
+      "reveInc": 19.42,
+      "marInc": 20.07,
+      "netInc": 15.77
+    },
+    {
+      "basDt": "2019-12-01",
+      "marketCap": 122995.3,
+      "liabilitiesCap": 57956.0,
+      "curAsset": 56437.1,
+      "inventory": 551.1,
+      "tangible": 15962.7,
+      "intangible": 3414.4,
+      "invests": 34874.0,
+      "curLiab": 37731.2,
+      "reveInc": 21.03,
+      "marInc": 22.55,
+      "netInc": 36.81
+    },
+    {
+      "basDt": "2020-12-01",
+      "marketCap": 170142.4,
+      "liabilitiesCap": 87591.1,
+      "curAsset": 105446.6,
+      "inventory": 43.4,
+      "tangible": 16845.6,
+      "intangible": 1051.4,
+      "invests": 43465.3,
+      "curLiab": 79117.5,
+      "reveInc": 21.76,
+      "marInc": 5.22,
+      "netInc": 112.94
+    },
+    {
+      "basDt": "2021-12-01",
+      "marketCap": 336910.1,
+      "liabilitiesCap": 96636.3,
+      "curAsset": 55278.8,
+      "inventory": 61.4,
+      "tangible": 21112.6,
+      "intangible": 9321.5,
+      "invests": 246120.7,
+      "curLiab": 39233.2,
+      "reveInc": 28.53,
+      "marInc": 9.06,
+      "netInc": 1850.01
+    }
+  ]
+}

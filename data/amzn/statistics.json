@@ -1,0 +1,62 @@
+{
+  "itmsNm": "Amazon.com Inc",
+  "crno": "AMZN",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "marketCap": 162648,
+      "liabilitiesCap": 119099,
+      "curAsset": 75101,
+      "inventory": 17174,
+      "tangible": 61797,
+      "intangible": 18658,
+      "invests": 2137,
+      "curLiab": 68391,
+      "reveInc": 30.93,
+      "marInc": 194.38,
+      "netInc": 232.11
+    },
+    {
+      "basDt": "2019-12-01",
+      "marketCap": 225248,
+      "liabilitiesCap": 163188,
+      "curAsset": 96334,
+      "inventory": 20497,
+      "tangible": 97846,
+      "intangible": 18803,
+      "invests": 1517,
+      "curLiab": 87812,
+      "reveInc": 30.93,
+      "marInc": 194.38,
+      "netInc": 232.11
+    },
+    {
+      "basDt": "2020-12-01",
+      "marketCap": 321195,
+      "liabilitiesCap": 227791,
+      "curAsset": 132733,
+      "inventory": 23795,
+      "tangible": 150667,
+      "intangible": 19998,
+      "invests": 711,
+      "curLiab": 126385,
+      "reveInc": 30.93,
+      "marInc": 194.38,
+      "netInc": 232.11
+    },
+    {
+      "basDt": "2021-12-01",
+      "marketCap": 420549,
+      "liabilitiesCap": 282304,
+      "curAsset": 161580,
+      "inventory": 32640,
+      "tangible": 216363,
+      "intangible": 15371,
+      "invests": 3022,
+      "curLiab": 142266,
+      "reveInc": 30.93,
+      "marInc": 194.38,
+      "netInc": 232.11
+    }
+  ]
+}

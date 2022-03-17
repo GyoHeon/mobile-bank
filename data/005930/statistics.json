@@ -1,0 +1,62 @@
+{
+  "itmsNm": "삼성전자",
+  "crno": "005930",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "marketCap": 3393572.4,
+      "liabilitiesCap": 916040.7,
+      "curAsset": 1746974.2,
+      "inventory": 289847.0,
+      "tangible": 1154167.2,
+      "intangible": 148916.0,
+      "invests": 156282.9,
+      "curLiab": 690815.1,
+      "reveInc": 1.83,
+      "marInc": 9.77,
+      "netInc": 5.12
+    },
+    {
+      "basDt": "2019-12-01",
+      "marketCap": 3525645.0,
+      "liabilitiesCap": 896840.8,
+      "curAsset": 1813852.6,
+      "inventory": 267664.6,
+      "tangible": 1198254.7,
+      "intangible": 207035.0,
+      "invests": 175613.3,
+      "curLiab": 637827.6,
+      "reveInc": 5.81,
+      "marInc": 52.85,
+      "netInc": 51.08
+    },
+    {
+      "basDt": "2020-12-01",
+      "marketCap": 3782357.2,
+      "liabilitiesCap": 1022877.0,
+      "curAsset": 1982155.8,
+      "inventory": 320431.5,
+      "tangible": 1289528.9,
+      "intangible": 184685.0,
+      "invests": 218549.6,
+      "curLiab": 756043.5,
+      "reveInc": 2.78,
+      "marInc": 29.62,
+      "netInc": 21.15
+    },
+    {
+      "basDt": "2021-12-01",
+      "marketCap": 4266211.6,
+      "liabilitiesCap": 1217212.3,
+      "curAsset": 2181631.9,
+      "inventory": 413844.0,
+      "tangible": 1499285.4,
+      "intangible": 202362.4,
+      "invests": 244234.3,
+      "curLiab": 881171.3,
+      "reveInc": 18.07,
+      "marInc": 43.45,
+      "netInc": 51.11
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "itmsNm": "Amazon.com Inc",
+  "crno": "AMZN",
+  "quarters": [
+    {
+      "basDt": "2018-12-01",
+      "revenue": 72.38,
+      "opInc": 3.79,
+      "netInc": 3.03,
+      "opMargin": 5.24,
+      "netMargin": 4.19,
+      "deptEquity": 20.38,
+      "roe": 27.02,
+      "roa": 7.11,
+      "eps": 6.19,
+      "per": 72.66,
+      "bps": 89.06,
+      "pbr": 16.86
+    },
+    {
+      "basDt": "2019-12-01",
+      "revenue": 87.44,
+      "opInc": 3.88,
+      "netInc": 3.27,
+      "opMargin": 4.44,
+      "netMargin": 3.74,
+      "deptEquity": 28.06,
+      "roe": 21.07,
+      "roa": 5.84,
+      "eps": 6.59,
+      "per": 78.77,
+      "bps": 125.17,
+      "pbr": 14.76
+    },
+    {
+      "basDt": "2020-12-01",
+      "revenue": 125.56,
+      "opInc": 6.87,
+      "netInc": 7.22,
+      "opMargin": 5.47,
+      "netMargin": 5.75,
+      "deptEquity": 26.27,
+      "roe": 27.07,
+      "roa": 7.88,
+      "eps": 14.4,
+      "per": 76.42,
+      "bps": 186.16,
+      "pbr": 17.5
+    },
+    {
+      "basDt": "2021-12-01",
+      "revenue": 137.41,
+      "opInc": 3.46,
+      "netInc": 14.32,
+      "opMargin": 2.52,
+      "netMargin": 10.42,
+      "deptEquity": 27.68,
+      "roe": 27.98,
+      "roa": 8.98,
+      "eps": 28.27,
+      "per": 0.53,
+      "bps": 272.59,
+      "pbr": 12.23
+    }
+  ]
+}

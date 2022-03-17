@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "id": "buzzData",
+      "data": [
+        {
+          "name": "삼성전자",
+          "currentPrice": 70200,
+          "compare": 200,
+          "rate": 0.29,
+          "trading": 8907965,
+          "buzz": 776,
+          "emotion": 5
+        },
+        {
+          "name": "LG에너지솔루션",
+          "currentPrice": 363500,
+          "compare": 27500,
+          "rate": -7.03,
+          "trading": 1983756,
+          "buzz": 611,
+          "emotion": 3
+        },
+        {
+          "name": "SK하이닉스",
+          "currentPrice": 116000,
+          "compare": -1000,
+          "rate": -0.85,
+          "trading": 3152057,
+          "buzz": 541,
+          "emotion": 1
+        },
+        {
+          "name": "NAVER",
+          "currentPrice": 329000,
+          "compare": 0,
+          "rate": 0,
+          "trading": 678047,
+          "buzz": 510,
+          "emotion": -3
+        },
+        {
+          "name": "삼성바이오로직스",
+          "currentPrice": 799000,
+          "compare": 12000,
+          "rate": 1.52,
+          "trading": 51447,
+          "buzz": 457,
+          "emotion": 2
+        },
+        {
+          "name": "삼성전자우",
+          "currentPrice": 63100,
+          "compare": -200,
+          "rate": -0.32,
+          "trading": 1380011,
+          "buzz": 415,
+          "emotion": -3
+        },
+        {
+          "name": "카카오",
+          "currentPrice": 103500,
+          "compare": 2000,
+          "rate": 1.97,
+          "trading": 3642279,
+          "buzz": 352,
+          "emotion": -5
+        },
+        {
+          "name": "현대차",
+          "currentPrice": 164500,
+          "compare": -4500,
+          "rate": -2.66,
+          "trading": 1106795,
+          "buzz": 313,
+          "emotion": 4
+        },
+        {
+          "name": "삼성SDI",
+          "currentPrice": 491000,
+          "compare": 10000,
+          "rate": 2.08,
+          "trading": 643704,
+          "buzz": 298,
+          "emotion": 2
+        },
+        {
+          "name": "LG화학",
+          "currentPrice": 457000,
+          "compare": -15000,
+          "rate": -3.18,
+          "trading": 603056,
+          "buzz": 265,
+          "emotion": 4
+        }
+      ]
+    }
+  ]
+}

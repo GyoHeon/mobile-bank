@@ -1,8 +1,10 @@
 {
   "clientName": "정효성",
   "accountId": "어머니",
+  "accountImg": "https://firebasestorage.googleapis.com/v0/b/bankapp-3e013.appspot.com/o/avatarMother.png?alt=media&token=ee84cc6a-6561-4215-96f0-c7b0d15b3c6f",
   "accountNumber": "213-112325-87330",
-  "deposit": 3230000,
+  "deposit": 2230000,
+  "setAmountNum": 3000000,
   "moneyBox": [
     {
       "title": "보청기",

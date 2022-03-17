@@ -1,0 +1,38 @@
+{
+  "global": [
+    {
+      "name": "APPLE INC",
+      "id": "AAPL",
+      "price": 155.09,
+      "date": "2022.03.16",
+      "type": "NASDAQ",
+      "exStock": 16319,
+      "marketCap": 2530.98,
+      "low52weeks": 118.86,
+      "high52weeks": 182.94,
+      "PER": 25.51,
+      "EPS": 2.11,
+      "BPS": 4.38,
+      "ROE": 149.81,
+      "divYield": 0.51,
+      "recap": "Apple Inc. (Apple) designs, manufactures and markets mobile communication and media devices, personal computers, and portable digital music players, and a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. The Company's products and services include iPhone, iPad, Mac, iPod, Apple TV, a portfolio of consumer and professional software applications, the iOS and OS X operating systems, iCloud, and a variety of accessory, service and support offerings. The Company also delivers digital content and applications through the iTunes Store, App StoreSM, iBookstoreSM, and Mac App Store. The Company distributes its products worldwide through its retail stores, online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. In February 2012, the Company acquired app-search engine Chomp."
+    },
+    {
+      "name": "AMAZON.COM INC",
+      "id": "AMZN",
+      "price": 2947.33,
+      "date": "2022.03.16",
+      "type": "KOSPI",
+      "exStock": 509,
+      "marketCap": 1499.73,
+      "low52weeks": 2671.45,
+      "high52weeks": 3773.08,
+      "PER": 44.66,
+      "EPS": 28.27,
+      "BPS": 272.59,
+      "ROE": 27.98,
+      "divYield": "N/A",
+      "recap": "Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Amazon strives to be Earth’s Most Customer-Centric Company, Earth’s Best Employer, and Earth’s Safest Place to Work. Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon."
+    }
+  ]
+}

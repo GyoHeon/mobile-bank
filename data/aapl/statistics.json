@@ -1,0 +1,58 @@
+{
+  "itmsNm": "Apple Inc",
+  "crno": "AAPL",
+  "yearly": [
+    {
+      "basDt": "2018-12-01",
+      "marketCap": 365725,
+      "liabilitiesCap": 258578,
+      "curAsset": 131339,
+      "inventory": 3956,
+      "tangible": 41304,
+      "invests": 170799,
+      "curLiab": 116866,
+      "reveInc": 16.29,
+      "marInc": 18.35,
+      "netInc": 23.12
+    },
+    {
+      "basDt": "2019-12-01",
+      "marketCap": 338516,
+      "liabilitiesCap": 248028,
+      "curAsset": 162819,
+      "inventory": 4106,
+      "tangible": 37378,
+      "invests": 106698,
+      "curLiab": 105718,
+      "reveInc": 2.2,
+      "marInc": 10.98,
+      "netInc": 7.18
+    },
+    {
+      "basDt": "2020-12-01",
+      "marketCap": 323888,
+      "liabilitiesCap": 258549,
+      "curAsset": 143713,
+      "inventory": 4061,
+      "tangible": 45336,
+      "invests": 102624,
+      "curLiab": 105392,
+      "reveInc": 5.46,
+      "marInc": 3.32,
+      "netInc": 3.9
+    },
+    {
+      "basDt": "2021-12-01",
+      "marketCap": 351002,
+      "liabilitiesCap": 287912,
+      "curAsset": 134836,
+      "inventory": 6580,
+      "tangible": 49527,
+      "invests": 127877,
+      "curLiab": 125481,
+      "reveInc": 33.44,
+      "marInc": 66.74,
+      "netInc": 64.92
+    }
+  ]
+}
