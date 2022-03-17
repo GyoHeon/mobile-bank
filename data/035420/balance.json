@@ -3,7 +3,7 @@
   "crno": "035420",
   "yearly": [
     {
-      "basDt": "2018-12-31",
+      "basDt": "2018-12-01",
       "revenue": 55869,
       "opInc": 9425,
       "netInc": 6279,
@@ -21,7 +21,7 @@
       "devidendPer": 0.26
     },
     {
-      "basDt": "2019-12-31",
+      "basDt": "2019-12-01",
       "revenue": 43562,
       "opInc": 11550,
       "netInc": 3968,
@@ -39,7 +39,7 @@
       "devidendPer": 0.2
     },
     {
-      "basDt": "2020-12-31",
+      "basDt": "2020-12-01",
       "revenue": 53041,
       "opInc": 12153,
       "netInc": 8450,
@@ -57,7 +57,7 @@
       "devidendPer": 0.14
     },
     {
-      "basDt": "2021-12-31",
+      "basDt": "2021-12-01",
       "revenue": 68176,
       "opInc": 13255,
       "netInc": 164776,
@@ -125,7 +125,7 @@
       "pbr": 2.44
     },
     {
-      "basDt": "2021-12-31",
+      "basDt": "2021-12-01",
       "revenue": 19277,
       "opInc": 3512,
       "netInc": 2998,
