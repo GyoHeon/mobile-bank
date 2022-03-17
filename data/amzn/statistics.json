@@ -4,47 +4,47 @@
   "yearly": [
     {
       "basDt": "2018-12-01",
-      "marketCap": 98811.9,
-      "curAsset": 53855.7,
-      "inventory": 574.4,
-      "tangible": 14573.0,
-      "intangible": 3069.6,
-      "invests": 22477.4,
-      "liabilitiesCap": 39320.5,
-      "curLiab": 26196.7
+      "marketCap": 162648,
+      "curAsset": 75101,
+      "inventory": 17174,
+      "tangible": 61797,
+      "intangible": 18658,
+      "liabilitiesCap": 119099,
+      "invests": 2137,
+      "curLiab": 68391
     },
     {
       "basDt": "2019-12-01",
-      "marketCap": 122995.3,
-      "curAsset": 56437.1,
-      "inventory": 551.1,
-      "tangible": 15962.7,
-      "intangible": 3414.4,
-      "invests": 34874.0,
-      "liabilitiesCap": 57956.0,
-      "curLiab": 37731.2
+      "marketCap": 225248,
+      "curAsset": 96334,
+      "inventory": 20497,
+      "tangible": 97846,
+      "intangible": 18803,
+      "liabilitiesCap": 163188,
+      "invests": 1517,
+      "curLiab": 87812
     },
     {
       "basDt": "2020-12-01",
-      "marketCap": 170142.4,
-      "curAsset": 105446.6,
-      "inventory": 43.4,
-      "tangible": 16845.6,
-      "intangible": 1051.4,
-      "invests": 43465.3,
-      "liabilitiesCap": 87591.1,
-      "curLiab": 79117.5
+      "marketCap": 321195,
+      "curAsset": 132733,
+      "inventory": 23795,
+      "tangible": 150667,
+      "intangible": 19998,
+      "liabilitiesCap": 227791,
+      "invests": 711,
+      "curLiab": 126385
     },
     {
       "basDt": "2021-12-01",
-      "marketCap": 336910.1,
-      "curAsset": 55278.8,
-      "inventory": 61.4,
-      "tangible": 21112.6,
-      "intangible": 9321.5,
-      "invests": 246120.7,
-      "liabilitiesCap": 96636.3,
-      "curLiab": 39233.2
+      "marketCap": 420549,
+      "curAsset": 161580,
+      "inventory": 32640,
+      "tangible": 216363,
+      "intangible": 15371,
+      "liabilitiesCap": 282304,
+      "invests": 3022,
+      "curLiab": 142266
     }
   ]
 }
