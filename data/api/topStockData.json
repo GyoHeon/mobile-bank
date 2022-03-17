@@ -10,8 +10,7 @@
           "rate": 0.29,
           "trading": 8907965,
           "buzz": 776,
-          "positive": 70,
-          "negative": 30
+          "emotion": 5
         },
         {
           "name": "LG에너지솔루션",
@@ -20,8 +19,7 @@
           "rate": -7.03,
           "trading": 1983756,
           "buzz": 611,
-          "positive": 50,
-          "negative": 50
+          "emotion": 3
         },
         {
           "name": "SK하이닉스",
@@ -30,8 +28,7 @@
           "rate": -0.85,
           "trading": 3152057,
           "buzz": 541,
-          "positive": 30,
-          "negative": 70
+          "emotion": 1
         },
         {
           "name": "NAVER",
@@ -40,8 +37,7 @@
           "rate": 0,
           "trading": 678047,
           "buzz": 510,
-          "positive": 80,
-          "negative": 20
+          "emotion": -3
         },
         {
           "name": "삼성바이오로직스",
@@ -50,8 +46,7 @@
           "rate": 1.52,
           "trading": 51447,
           "buzz": 457,
-          "positive": 70,
-          "negative": 30
+          "emotion": 2
         },
         {
           "name": "삼성전자우",
@@ -60,8 +55,7 @@
           "rate": -0.32,
           "trading": 1380011,
           "buzz": 415,
-          "positive": 60,
-          "negative": 40
+          "emotion": -3
         },
         {
           "name": "카카오",
@@ -70,8 +64,7 @@
           "rate": 1.97,
           "trading": 3642279,
           "buzz": 352,
-          "positive": 90,
-          "negative": 10
+          "emotion": -5
         },
         {
           "name": "현대차",
@@ -80,8 +73,7 @@
           "rate": -2.66,
           "trading": 1106795,
           "buzz": 313,
-          "positive": 70,
-          "negative": 30
+          "emotion": 4
         },
         {
           "name": "삼성SDI",
@@ -90,8 +82,7 @@
           "rate": 2.08,
           "trading": 643704,
           "buzz": 298,
-          "positive": 60,
-          "negative": 40
+          "emotion": 2
         },
         {
           "name": "LG화학",
@@ -100,218 +91,7 @@
           "rate": -3.18,
           "trading": 603056,
           "buzz": 265,
-          "positive": 40,
-          "negative": 60
-        }
-      ]
-    },
-    {
-      "id": "positiveData",
-      "data": [
-        {
-          "name": "카카오",
-          "currentPrice": 103500,
-          "compare": 2000,
-          "rate": 1.97,
-          "trading": 3642279,
-          "buzz": 352,
-          "positive": 90,
-          "negative": 10
-        },
-        {
-          "name": "NAVER",
-          "currentPrice": 329000,
-          "compare": 0,
-          "rate": 0,
-          "trading": 678047,
-          "buzz": 510,
-          "positive": 80,
-          "negative": 20
-        },
-        {
-          "name": "삼성전자",
-          "currentPrice": 70200,
-          "compare": 200,
-          "rate": 0.29,
-          "trading": 8907965,
-          "buzz": 776,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "삼성바이오로직스",
-          "currentPrice": 799000,
-          "compare": 12000,
-          "rate": 1.52,
-          "trading": 51447,
-          "buzz": 457,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "현대차",
-          "currentPrice": 164500,
-          "compare": -4500,
-          "rate": -2.66,
-          "trading": 1106795,
-          "buzz": 313,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "삼성전자우",
-          "currentPrice": 63100,
-          "compare": -200,
-          "rate": -0.32,
-          "trading": 1380011,
-          "buzz": 415,
-          "positive": 60,
-          "negative": 40
-        },
-        {
-          "name": "삼성SDI",
-          "currentPrice": 491000,
-          "compare": 10000,
-          "rate": 2.08,
-          "trading": 643704,
-          "buzz": 298,
-          "positive": 60,
-          "negative": 40
-        },
-        {
-          "name": "LG에너지솔루션",
-          "currentPrice": 363500,
-          "compare": 27500,
-          "rate": -7.03,
-          "trading": 1983756,
-          "buzz": 611,
-          "positive": 50,
-          "negative": 50
-        },
-        {
-          "name": "LG화학",
-          "currentPrice": 457000,
-          "compare": -15000,
-          "rate": -3.18,
-          "trading": 603056,
-          "buzz": 265,
-          "positive": 40,
-          "negative": 60
-        },
-        {
-          "name": "SK하이닉스",
-          "currentPrice": 116000,
-          "compare": -1000,
-          "rate": -0.85,
-          "trading": 3152057,
-          "buzz": 541,
-          "positive": 30,
-          "negative": 70
-        }
-      ]
-    },
-    {
-      "id": "negativeData",
-      "data": [
-        {
-          "name": "SK하이닉스",
-          "currentPrice": 116000,
-          "compare": -1000,
-          "rate": -0.85,
-          "trading": 3152057,
-          "buzz": 541,
-          "positive": 30,
-          "negative": 70
-        },
-        {
-          "name": "LG화학",
-          "currentPrice": 457000,
-          "compare": -15000,
-          "rate": -3.18,
-          "trading": 603056,
-          "buzz": 265,
-          "positive": 40,
-          "negative": 60
-        },
-        {
-          "name": "LG에너지솔루션",
-          "currentPrice": 363500,
-          "compare": 27500,
-          "rate": -7.03,
-          "trading": 1983756,
-          "buzz": 611,
-          "positive": 50,
-          "negative": 50
-        },
-        {
-          "name": "삼성SDI",
-          "currentPrice": 491000,
-          "compare": 10000,
-          "rate": 2.08,
-          "trading": 643704,
-          "buzz": 298,
-          "positive": 60,
-          "negative": 40
-        },
-        {
-          "name": "삼성전자우",
-          "currentPrice": 63100,
-          "compare": -200,
-          "rate": -0.32,
-          "trading": 1380011,
-          "buzz": 415,
-          "positive": 60,
-          "negative": 40
-        },
-        {
-          "name": "현대차",
-          "currentPrice": 164500,
-          "compare": -4500,
-          "rate": -2.66,
-          "trading": 1106795,
-          "buzz": 313,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "삼성바이오로직스",
-          "currentPrice": 799000,
-          "compare": 12000,
-          "rate": 1.52,
-          "trading": 51447,
-          "buzz": 457,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "삼성전자",
-          "currentPrice": 70200,
-          "compare": 200,
-          "rate": 0.29,
-          "trading": 8907965,
-          "buzz": 776,
-          "positive": 70,
-          "negative": 30
-        },
-        {
-          "name": "NAVER",
-          "currentPrice": 329000,
-          "compare": 0,
-          "rate": 0,
-          "trading": 678047,
-          "buzz": 510,
-          "positive": 80,
-          "negative": 20
-        },
-        {
-          "name": "카카오",
-          "currentPrice": 103500,
-          "compare": 2000,
-          "rate": 1.97,
-          "trading": 3642279,
-          "buzz": 352,
-          "positive": 90,
-          "negative": 10
+          "emotion": 4
         }
       ]
     }
