@@ -7,6 +7,7 @@
       "netInc": 59531,
       "depre": 10903,
       "sales": 4896,
+      "salesPer": 9,
       "salesNet": 42740,
       "investsNet": 16066,
       "devNet": 13712
@@ -16,6 +17,7 @@
       "netInc": 55256,
       "depre": 12547,
       "sales": 5416,
+      "salesPer": 10,
       "salesNet": 72879,
       "investsNet": 45896,
       "devNet": 14119
@@ -25,6 +27,7 @@
       "netInc": 57411,
       "depre": 11056,
       "sales": 6732,
+      "salesPer": 13,
       "salesNet": 74984,
       "investsNet": 4289,
       "devNet": 14081
@@ -34,6 +37,7 @@
       "netInc": 94680,
       "depre": 11284,
       "sales": 7759,
+      "salesPer": 8,
       "salesNet": 108949,
       "investsNet": 14545,
       "devNet": 14467
