@@ -26,9 +26,9 @@
       "intangible": 18803,
       "invests": 1517,
       "curLiab": 87812,
-      "reveInc": 30.93,
-      "marInc": 194.38,
-      "netInc": 232.11
+      "reveInc": 20.93,
+      "marInc": 154.38,
+      "netInc": 132.11
     },
     {
       "basDt": "2020-12-01",
@@ -40,9 +40,9 @@
       "intangible": 19998,
       "invests": 711,
       "curLiab": 126385,
-      "reveInc": 30.93,
-      "marInc": 194.38,
-      "netInc": 232.11
+      "reveInc": 10.93,
+      "marInc": 94.38,
+      "netInc": 23.11
     },
     {
       "basDt": "2021-12-01",
@@ -54,9 +54,9 @@
       "intangible": 15371,
       "invests": 3022,
       "curLiab": 142266,
-      "reveInc": 30.93,
-      "marInc": 194.38,
-      "netInc": 232.11
+      "reveInc": 40.93,
+      "marInc": 44.38,
+      "netInc": 92.11
     }
   ]
 }
